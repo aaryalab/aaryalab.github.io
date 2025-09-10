@@ -1,7 +1,37 @@
 [
   {
-    "title": "Screen-Printed MXene Films for Flexible Electronics",
-    "blurb": "Ink formulation, rheology control, and scalable printing on PET.",
-    "links": [{"label": "Summary", "url": "#"}]
+    "title": "Introduction to Advanced Science and Technology",
+    "level": "Omnibus Course",
+    "description": "An overview of cutting-edge research and methodologies across various domains, taught by a team of multinational instructors."
+  },
+  {
+    "title": "Diversity and culture of other countries",
+    "level": "Omnibus Course",
+    "description": "Prepares students for working in global teams by exploring cultural preconceptions, communication styles, and sociological frameworks."
+  },
+  {
+    "title": "Physics: Mechanics and Thermodynamics",
+    "level": "Core Physics",
+    "description": "Covers fundamental principles of classical mechanics and the laws of thermodynamics, including temperature, heat, and energy."
+  },
+  {
+    "title": "Physics: Electromagnetism",
+    "level": "Core Physics",
+    "description": "Focuses on electric and magnetic fields, circuits, Maxwell's equations, and the principles of electromagnetic induction."
+  },
+  {
+    "title": "Physics: Optics",
+    "level": "Core Physics",
+    "description": "Explores classical optical phenomena such as reflection, refraction, diffraction, and interference, as well as the quantum properties of photons."
+  },
+  {
+    "title": "Biophotonics",
+    "level": "Specialized Course",
+    "description": "Introduces optical biosensing technologies, super-resolution microscopy, and advanced imaging techniques like OCT and Raman imaging."
+  },
+  {
+    "title": "Biophysics",
+    "level": "Specialized Course",
+    "description": "Covers fundamental concepts and applications in biosensors, bioelectronics, biomechanics, and neurology."
   }
 ]
