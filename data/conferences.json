@@ -1,7 +1,18 @@
 [
   {
-    "title": "Screen-Printed MXene Films for Flexible Electronics",
-    "blurb": "Ink formulation, rheology control, and scalable printing on PET.",
-    "links": [{"label": "Summary", "url": "#"}]
+    "date": "2024-03-01",
+    "title": "A Disposable Sensor Chip Electrode for Vancomycin Detection in Human Serum",
+    "event": "91st Annual Meeting of the Electrochemical Society",
+    "location": "Nagoya University, Japan",
+    "authors": "Aaryashree, Aoi Hirata, Saki Hakoshima, Yasuo Yoshimi",
+    "link": ""
+  },
+  {
+    "date": "2023-03-27",
+    "title": "A Disposable Sensor Chip For Antiepileptic Drug Monitoring Using Molecularly Imprinted Carbon Paste",
+    "event": "90th ECSJ Annual Meeting",
+    "location": "Sendai, Japan",
+    "authors": "Aaryashree, Choudhary Ashish, Yuma Oku, Yasuo Yoshimi",
+    "link": ""
   }
 ]
