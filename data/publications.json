@@ -1,7 +1,227 @@
 [
   {
-    "title": "Screen-Printed MXene Films for Flexible Electronics",
-    "blurb": "Ink formulation, rheology control, and scalable printing on PET.",
-    "links": [{"label": "Summary", "url": "#"}]
+    "year": 2025,
+    "title": "The Individual and Combined Effects of Microplastics and Heavy Metals on Marine Organisms",
+    "venue": "Microplastics",
+    "authors": "A Devi, YSK De Silva, L Tyagi, Aaryashree",
+    "volume": "4",
+    "issue": "3",
+    "pages": "38",
+    "month": "July",
+    "links": {},
+    "area": "Environmental Sensors"
+  },
+  {
+    "year": 2025,
+    "title": "Non-invasive detection of arsenic-induced changes in lentil seed activity using biospeckle Optical Coherence Tomography",
+    "venue": "Optics Continuum",
+    "authors": "Aaryashree, Choudhary A. K., Devi A., Tyagi L., Rajagopalan U. M., Kadono H.",
+    "volume": "4",
+    "issue": "5",
+    "pages": "968-984",
+    "month": "May",
+    "links": {},
+    "area": "Optical Sensing"
+  },
+  {
+    "year": 2023,
+    "title": "Disposable Sensor Chips with Molecularly Imprinted Carbon Paste Electrodes for Monitoring Anti-Epileptic Drugs",
+    "venue": "Sensors",
+    "authors": "Aaryashree, Choudhary A. K., Yoshimi Y.",
+    "volume": "23",
+    "pages": "3271",
+    "month": "March",
+    "links": {},
+    "area": "Biosensors"
+  },
+  {
+    "year": 2022,
+    "title": "A Disposable Sensor Chip Using a Paste Electrode with Surface-Imprinted Graphite Particles for Rapid and Reagentless Monitoring of Theophylline",
+    "venue": "Molecules",
+    "authors": "Aaryashree, Ohishi T., Yoshimi Y.",
+    "volume": "27",
+    "issue": "8",
+    "pages": "2456",
+    "month": "April",
+    "links": { "doi": "https://doi.org/10.3390/molecules27082456" },
+    "area": "Biosensors"
+  },
+  {
+    "year": 2021,
+    "title": "Recent advances in 2D black phosphorus-based materials for gas sensing applications",
+    "venue": "Journal of Materials Chemistry C",
+    "authors": "Aaryashree, Shinde P., Kumar A., Late D. J., Rout C. S.",
+    "links": { "doi": "https://doi.org/10.1039/d0tc05565d" },
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2021,
+    "title": "Recent developments in self-powered smart chemical sensors for wearable electronics",
+    "venue": "Nano Research",
+    "authors": "Aaryashree, S. Sahoo, P. Walke, S. K. Nayak, C. S. Rout, D. J. Late",
+    "volume": "12",
+    "issue": "1",
+    "month": "Feb",
+    "links": { "doi": "https://doi.org/10.1007/s12274-021-3330-8" },
+    "area": "Wearable Sensors"
+  },
+  {
+    "year": 2020,
+    "title": "A 'Single-Use' Ceramic-Based Electrochemical Sensor Chip Using Molecularly Imprinted Carbon Paste Electrode",
+    "venue": "Sensors",
+    "authors": "Aaryashree, Takeda Y., Momoe K., Hatano A., Yoshimi Y., Kida M.",
+    "volume": "20",
+    "pages": "5847",
+    "month": "October",
+    "area": "Biosensors"
+  },
+  {
+    "year": 2020,
+    "title": "Mesoporous Tyrosine Functionalized BTC-ZnO Composite for Highly Selective Capacitive CO Sensor",
+    "venue": "IEEE Sensors Journal",
+    "authors": "Aaryashree, B. Mandal, A. Biswas, R. Bhardwaj, A. Agarwal, A. K. Das, S. Mukherjee",
+    "volume": "1",
+    "issue": "3",
+    "pages": "2610-2617",
+    "links": { "doi": "https://doi.org/10.1109/JSEN.2020.3027786" },
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2020,
+    "title": "Organo-di-benzoic acidified ZnO nanohybrids for highly selective detection of CO gas at low temperature",
+    "venue": "Journal of Physical Chemistry C",
+    "authors": "B. Mandal, S. Maiti, Aaryashree, G. Siddharth, M. Das, A. Agarwal, A. K. Das, S. Mukherjee",
+    "volume": "124",
+    "issue": "13",
+    "pages": "7307-7316",
+    "month": "March",
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2019,
+    "title": "Architecture tailoring of MoO3 nanostructures for superior ethanol sensing performance",
+    "venue": "Materials Research Bulletin",
+    "authors": "B. Mandal, Aaryashree, M. Das, M. T. Htay, S. Mukherjee",
+    "volume": "109",
+    "pages": "281-290",
+    "month": "January",
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2018,
+    "title": "Functionalized oligo(p-phenylenevinylene) and ZnO based nanohybrid for selective ammonia sensing at room temperature",
+    "venue": "IEEE Sensors Journal",
+    "authors": "Aaryashree, B. Mandal, R. Bhardwaj, S. Maiti, D.S. Sharma, A. K. Das, S. Mukherjee",
+    "volume": "19",
+    "issue": "8",
+    "pages": "2847-2854",
+    "month": "December",
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2018,
+    "title": "π-conjugated amine-ZnO nanohybrids for the selective detection of CO2 gas at room temperature",
+    "venue": "ACS Applied Nano Materials",
+    "authors": "B. Mandal, A. Biswas, Aaryashree, D. S. Sharma, R. Bhardwaj, M. Das, Md. A. Rahman, S. Kuriakose, M. Bhaskaran, S. Sriram, M. T. Htay, A. K. Das, S. Mukherjee",
+    "volume": "1",
+    "issue": "12",
+    "pages": "6912-6921",
+    "month": "November",
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2018,
+    "title": "Sputter-instigated plasmon-enhanced optical backscattering layer in ultrathin solar cells: Application of GZO in CIGSe material system",
+    "venue": "Solar Energy",
+    "authors": "Vivek Garg, Brajendra S. Sengar, Pankaj Sharma, Amitesh Kumar, Aaryashree, Shailendra Kumar, Shaibal Mukherjee",
+    "volume": "174",
+    "pages": "35-44",
+    "month": "September",
+    "area": "Solar Cells"
+  },
+  {
+    "year": 2018,
+    "title": "Highly selective and sensitive methanol sensor using rose-like ZnO microcube and MoO3 micrograss based composite",
+    "venue": "IEEE Sensors Journal",
+    "authors": "Biswajit Mandal, Aaryashree, Rohit Singh, Shaibal Mukherjee",
+    "volume": "18",
+    "issue": "7",
+    "pages": "2659-2666",
+    "month": "April",
+    "area": "Gas Sensors"
+  },
+  {
+    "year": 2017,
+    "title": "Synergetic accrual of lamellar nano-hybrids for band-selective photodetection",
+    "venue": "Journal of Physical Chemistry C",
+    "authors": "Aaryashree, Pankaj Sharma, Biswajit Mandal, Ankan Biswas, Manoj K Manna, Sayan Maiti, Apurba K. Das, Shaibal Mukherjee",
+    "volume": "121",
+    "issue": "26",
+    "pages": "14037-14044",
+    "month": "June",
+    "area": "Optoelectronics"
+  },
+  {
+    "year": 2017,
+    "title": "Optoelectronic properties of phosphorus doped p-type ZnO films grown by dual ion beam sputtering",
+    "venue": "Journal of Applied Physics",
+    "authors": "Pankaj Sharma, Aaryashree, Vivek Garg, Shaibal Mukherjee",
+    "volume": "121",
+    "pages": "225306",
+    "month": "June",
+    "area": "Optoelectronics"
+  },
+  {
+    "year": 2017,
+    "title": "Impact of sputter-instigated plasmonic features in TCO films: for ultrathin photovoltaic applications",
+    "venue": "Applied Physics Letters",
+    "authors": "Vishnu Awasthi, Vivek Garg, Brajendra S. Sengar, Sushil Kumar Pandey, Aaryashree, Shailendra Kumar, C. Mukherjee, Shaibal Mukherjee",
+    "volume": "110",
+    "issue": "10",
+    "pages": "103903",
+    "month": "March",
+    "area": "Solar Cells"
+  },
+  {
+    "year": 2016,
+    "title": "Photosensitive ZnO‐Graphene Quantum Dot Hybrid Nanocomposite for Optoelectronic Applications",
+    "venue": "ChemistrySelect",
+    "authors": "Aaryashree, Sagar Biswas, Pankaj Sharma, Vishnu Awasthi, Brajendra S. Sengar, Apurba K. Das, Shaibal Mukherjee",
+    "volume": "1",
+    "issue": "7",
+    "pages": "1503-1509",
+    "month": "May",
+    "area": "Optoelectronics"
+  },
+  {
+    "year": 2016,
+    "title": "Lamellar Peptide-Cadmium-doped Zinc Oxide Nanohybrids That Emit White Light",
+    "venue": "ChemPlusChem",
+    "authors": "Manoj K Manna, Aaryashree, Shruti Verma, Apurba K. Das, Shaibal Mukherjee",
+    "volume": "81",
+    "issue": "3",
+    "pages": "329-337",
+    "month": "March",
+    "area": "Optoelectronics"
+  },
+  {
+    "year": 2016,
+    "title": "Growth and characterization of dual ion beam sputtered Cu2ZnSn(S,Se)4 thin films for cost-effective photovoltaic application",
+    "venue": "Solar Energy",
+    "authors": "Brajendra S. Sengar, Vivek Garg, Vishnu Awasthi, Aaryashree, Pankaj Sharma, C. Mukherjee, Shaibal Mukherjee",
+    "volume": "139",
+    "pages": "1-12",
+    "month": "September",
+    "area": "Solar Cells"
+  },
+  {
+    "year": 2016,
+    "title": "Localized surface plasmon resonance on Au nanoparticles: tuning and exploitation for performance enhancement in ultrathin photovoltaics",
+    "venue": "RSC Advances",
+    "authors": "Vivek Garg, Brajendra S. Sengar, Vishnu Awasthi, Aaryashree, Pankaj Sharma, C. Mukherjee, Shailendra Kumar, Shaibal Mukherjee",
+    "volume": "6",
+    "pages": "26216-26226",
+    "month": "March",
+    "area": "Solar Cells"
   }
 ]
