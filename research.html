@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Research | Advanced Electronics & Sensor Devices Lab</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <style>body{font-family:'Inter',sans-serif}</style>
-</head>
-<body class="bg-gray-50 text-gray-800">
-  <!-- Header -->
- <!-- Desktop nav -->
-<div class="hidden md:flex items-center gap-6 text-gray-600">
-  <a href="index.html#home" class="hover:text-blue-600">Home</a>
-  <a href="research.html" class="hover:text-blue-600">Research</a>
-  <a href="teaching.html" class="hover:text-blue-600">Teaching</a>
-  <a href="publications.html" class="hover:text-blue-600">Publications</a>
-  <a href="index.html#news" class="hover:text-blue-600">News</a>
-  <a href="index.html#join" class="hover:text-blue-600">Join Us</a>
-  <a href="index.html#contact" class="hover:text-blue-600">Contact</a>
-</div>
+<!-- Header (paste this at the top of every page) -->
+<header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+  <nav class="container mx-auto px-6 py-4">
+    <div class="flex items-center gap-6">
+      <!-- Brand stays on the left -->
+      <a href="index.html#home" class="shrink-0 text-base md:text-lg font-extrabold tracking-tight text-gray-900">
+        Advanced Electronics &amp; Sensor Devices Lab
+      </a>
+      <!-- Page links LEFT-aligned (remove justify-between / ml-auto) -->
+      <div class="hidden md:flex items-center gap-6 text-gray-700">
+        <a href="index.html#home" class="hover:text-blue-600">Home</a>
+        <a href="research.html" class="hover:text-blue-600">Research</a>
+        <a href="teaching.html" class="hover:text-blue-600">Teaching</a>
+        <a href="publications.html" class="hover:text-blue-600">Publications</a>
+        <a href="index.html#news" class="hover:text-blue-600">News</a>
+        <a href="index.html#join" class="hover:text-blue-600">Join Us</a>
+        <a href="index.html#contact" class="hover:text-blue-600">Contact</a>
+      </div>
 
-<!-- Mobile menu -->
-<div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-  <a href="index.html#home" class="block text-gray-600 hover:text-blue-600">Home</a>
-  <a href="research.html" class="block text-gray-600 hover:text-blue-600">Research</a>
-  <a href="teaching.html" class="block text-gray-600 hover:text-blue-600">Teaching</a>
-  <a href="publications.html" class="block text-gray-600 hover:text-blue-600">Publications</a>
-  <a href="index.html#news" class="block text-gray-600 hover:text-blue-600">News</a>
-  <a href="index.html#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
-  <a href="index.html#contact" class="block text-gray-600 hover:text-blue-600">Contact</a>
-</div>
+      <!-- Mobile button (kept at far right) -->
+      <button id="mobile-menu-button" class="md:hidden ml-auto p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile menu (links mirror desktop) -->
+    <div id="mobile-menu" class="hidden md:hidden mt-3 space-y-2">
+      <a href="index.html#home" class="block text-gray-700 hover:text-blue-600">Home</a>
+      <a href="research.html" class="block text-gray-700 hover:text-blue-600">Research</a>
+      <a href="teaching.html" class="block text-gray-700 hover:text-blue-600">Teaching</a>
+      <a href="publications.html" class="block text-gray-700 hover:text-blue-600">Publications</a>
+      <a href="index.html#news" class="block text-gray-700 hover:text-blue-600">News</a>
+      <a href="index.html#join" class="block text-gray-700 hover:text-blue-600">Join Us</a>
+      <a href="index.html#contact" class="block text-gray-700 hover:text-blue-600">Contact</a>
+    </div>
+  </nav>
+</header>
 
   <main class="container mx-auto px-6">
     <!-- Hero -->
@@ -290,4 +298,22 @@
     });
   </script>
 </body>
+  <!-- Put this script once at the bottom of <body> on each page -->
+<script>
+  // Mobile menu
+  const btn = document.getElementById('mobile-menu-button');
+  const menu = document.getElementById('mobile-menu');
+  if (btn && menu) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+
+  // Close mobile after click
+  if (menu) menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.add('hidden')));
+
+  // Highlight active link
+  const path = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('nav a').forEach(a => {
+    const href = a.getAttribute('href'); if (!href) return;
+    const file = (href.split('#')[0] || 'index.html');
+    if (file === path) a.classList.add('text-blue-700','font-semibold');
+  });
+</script>
 </html>
