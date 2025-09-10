@@ -1,1 +1,28 @@
-
+[
+  {
+    "year_start": 2022,
+    "year_end": 2025,
+    "agency": "JSPS KAKENHI (Early-Career Scientists)",
+    "title": "Point-of-care therapeutic monitoring of antibacterial agents using a low-cost disposable sensor",
+    "role": "PI",
+    "amount_jpy_m": 4.4,
+    "grant_no": "22K18187"
+  },
+  {
+    "year_start": 2021,
+    "year_end": 2023,
+    "agency": "Eisai Co., Ltd.",
+    "title": "Drug concentration measurement and evaluation using MIP-based sensors",
+    "role": "Co-PI",
+    "amount_jpy_m": 1.1
+  },
+  {
+    "year_start": 2023,
+    "year_end": 2024,
+    "agency": "NARO",
+    "title": "Development of a wire-type sensor for monitoring the freshness of agricultural products",
+    "role": "Sensor Development Lead",
+    "amount_jpy_m": 9.56,
+    "grant_no": "SU23A03"
+  }
+]
