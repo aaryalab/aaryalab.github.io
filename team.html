@@ -1,107 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Team | Advanced Electronics and Sensor Devices Lab</title>
+    <title>Team | Advanced Electronics & Sensor Devices Lab</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body{font-family:'Inter',sans-serif}
-        .nav-link-active { color: #2563EB; font-weight: 600; }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        .nav-link-active { color: #1e40af; font-weight: 600; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-slate-50 text-gray-800">
 
     <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+    <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-base md:text-lg font-bold text-gray-900 tracking-tight">
-                Advanced Electronics & Sensor Devices Lab
-            </a>
-            <div class="hidden md:flex items-center gap-6 text-gray-600">
-                <a href="index.html" class="hover:text-blue-600">Home</a>
-                <a href="research.html" class="hover:text-blue-600">Research</a>
+            <a href="index.html" class="font-semibold text-gray-900">AESD Lab</a>
+            <div class="flex items-center gap-6 text-sm text-gray-500">
+                <a href="index.html" class="hover:text-gray-900">Home</a>
+                <a href="research.html" class="hover:text-gray-900">Research</a>
                 <a href="team.html" class="nav-link-active">Team</a>
-                <a href="teaching.html" class="hover:text-blue-600">Teaching</a>
-                <a href="publications.html" class="hover:text-blue-600">Publications</a>
-                <a href="index.html#news" class="hover:text-blue-600">News</a>
-                <a href="index.html#join" class="hover:text-blue-600">Join Us</a>
+                <a href="teaching.html" class="hover:text-gray-900">Teaching</a>
+                <a href="publications.html" class="hover:text-gray-900">Publications</a>
             </div>
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
-                </svg>
-            </button>
         </nav>
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-            <a href="index.html" class="block text-gray-600 hover:text-blue-600">Home</a>
-            <a href="research.html" class="block text-gray-600 hover:text-blue-600">Research</a>
-            <a href="team.html" class="block text-gray-600 nav-link-active">Team</a>
-            <a href="teaching.html" class="block text-gray-600 hover:text-blue-600">Teaching</a>
-            <a href="publications.html" class="block text-gray-600 hover:text-blue-600">Publications</a>
-            <a href="index.html#news" class="block text-gray-600 hover:text-blue-600">News</a>
-            <a href="index.html#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
-        </div>
     </header>
 
-    <main class="container mx-auto px-6 py-12">
-        <h1 class="text-4xl md:text-5xl font-black text-gray-900">Our Team</h1>
-        
-        <!-- PI Section -->
-        <section class="py-12">
-            <h2 class="text-2xl font-bold">Principal Investigator</h2>
-            <div class="mt-8 bg-white p-8 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-8 border border-gray-200">
-                <img src="images/Aaryashree.jpg" alt="Aaryashree"class="w-48 h-48 rounded-full object-cover shadow-lg ring-4 ring-blue-200">
-                <div>
-                    <h3 class="text-2xl font-bold">Aaryashree (Aarya)</h3>
-                    <p class="text-blue-600 font-semibold">Associate Professor</p>
-                    <p class="mt-4 text-gray-600">
-                        Research at the intersection of nanomaterials, printed electronics, and intelligent sensing. We
-                        build flexible devices, neuromorphic components, and AI-integrated sensor systems for real-world impact.
-                    </p>
-                    <div class="mt-4 flex gap-4 text-sm">
-                        <a href="mailto:aarya@shibaura-it.ac.jp" class="text-gray-600 hover:text-blue-600">Email</a>
-                        <a href="https://scholar.google.com/citations?user=9o23iIcAAAAJ" target="_blank" class="text-gray-600 hover:text-blue-600">Google Scholar</a>
-                        <a href="https://shibaura.elsevierpure.com/en/persons/aaryashree-aaryashree" target="_blank" class="text-gray-600 hover:text-blue-600">University Profile</a>
+    <main class="container mx-auto px-6 py-20">
+        <div class="max-w-4xl mx-auto">
+             <section>
+                <h1 class="text-4xl font-bold text-gray-900">Meet the Team</h1>
+                <p class="mt-3 text-lg text-gray-600">
+                    Our lab is composed of dedicated researchers passionate about pushing the boundaries of electronics and sensor technology.
+                </p>
+            </section>
+            
+            <section class="mt-12">
+                <h2 class="text-xl font-semibold text-blue-700">Principal Investigator</h2>
+                <div class="mt-4 bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex items-center gap-6">
+                    <img src="image/Aaryashree.jpg" alt="Aaryashree" class="w-24 h-24 rounded-full object-cover">
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-900">Aaryashree</h3>
+                        <p class="text-sm text-gray-600">Associate Professor</p>
+                        <div class="mt-2 text-sm">
+                            <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline">Email</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Students Section -->
-        <section class="py-12 border-t">
-            <h2 class="text-2xl font-bold">Student Researchers</h2>
-            <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Example Student Card. Copy this block to add more students. -->
-                    <div class="text-center">
-                      <img src="images/ZhangLeyi.jpg" 
-                           alt="Zhang Leyi"
-                           class="w-48 h-48 mx-auto rounded-full object-cover shadow-md">
-                      <h4 class="mt-4 text-xl font-semibold">Zhang Leyi</h4>
-                      <p class="text-gray-600">Undergraduate Researcher</p>
-                      <p class="text-gray-500 text-sm">IGP Program · 1st Year</p>
+            <section class="mt-12">
+                <h2 class="text-xl font-semibold text-blue-700">Undergraduate Researchers</h2>
+                <div class="mt-4 grid md:grid-cols-2 gap-6">
+                    <!-- Student Card -->
+                    <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex items-center gap-6">
+                        <!-- EDIT HERE: Replace with student photo URL -->
+                        <img src="image/ZhangLeyi.jpg" alt="Student Name" class="w-24 h-24 rounded-full object-cover">
+                        <div>
+                            <!-- EDIT HERE: Replace with student name -->
+                            <h3 class="font-bold text-lg text-gray-900">Zhang Leyi</h3>
+                            <p class="text-sm text-gray-600">B.Eng. Student</p>
+                            <p class="text-gray-500 text-sm">IGP Program · 1st Year</p>
+                        </div>
                     </div>
-                <!-- End Student Card -->
-            </div>
-        </section>
-
+                     <!-- Add more student cards here by copying the block above -->
+                </div>
+            </section>
+        </div>
     </main>
 
-    <footer class="bg-gray-900 text-white py-6 mt-12">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; <span id="year"></span> Advanced Electronics & Sensor Devices Lab, Shibaura Institute of Technology.</p>
+    <footer class="mt-20 border-t border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-10">
+            <div class="max-w-2xl mx-auto text-gray-600 text-sm">
+                <h2 class="font-semibold text-gray-800">Contact</h2>
+                <p class="mt-2">Advanced Electronics & Sensor Devices Lab</p>
+                <p>Shibaura Institute of Technology, Tokyo</p>
+                <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline">aarya@shibaura-it.ac.jp</a>
+            </div>
         </div>
     </footer>
-
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if(mobileMenuButton) mobileMenuButton.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
-        if(mobileMenu) mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
-    </script>
 </body>
 </html>
+
