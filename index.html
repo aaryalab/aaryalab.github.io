@@ -243,23 +243,41 @@
     </section>
 
     <!-- Publications -->
-    <section id="publications" class="py-20">
-      <h2 class="section-header text-3xl font-bold text-center">Publications</h2>
-      <div class="mt-12 space-y-4 max-w-4xl mx-auto">
-        <!-- Replace with real items -->
-        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+<section id="publications" class="py-20">
+  <h2 class="section-header text-3xl font-bold text-center">Recent Publications</h2>
+  <div id="pubPreview" class="mt-12 space-y-4 max-w-4xl mx-auto"></div>
+  <div class="mt-6 text-center">
+    <a href="publications.html" 
+       class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-700">
+       View All Publications
+    </a>
+  </div>
+</section>
+
+<script>
+  fetch('data/publications.json')
+    .then(r => r.json())
+    .then(pubs => {
+      pubs.sort((a,b) => (b.year||0)-(a.year||0)); // newest first
+      const preview = pubs.slice(0,3); // take 3 latest
+      const wrap = document.getElementById('pubPreview');
+      preview.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'bg-white p-6 rounded-lg shadow-sm border border-gray-200';
+        div.innerHTML = `
           <p class="text-gray-700">
-            <span class="font-bold">Aaryashree A</span>, et&nbsp;al. (2024). Title of a recent publication. 
-            <span class="italic">Journal Name</span> 00(0), 1–10.
+            <span class="font-bold">${p.authors}</span> (${p.year}). ${p.title}.
+            <span class="italic">${p.venue||''}</span>
+            ${p.volume? p.volume:''}${p.issue?'('+p.issue+')':''}${p.pages?', '+p.pages:''}.
           </p>
           <div class="mt-2 space-x-4 text-sm">
-            <a href="#" class="text-blue-600 hover:underline">DOI</a>
-            <a href="#" class="text-blue-600 hover:underline">PDF</a>
-            <a href="#" class="text-blue-600 hover:underline">PubMed</a>
-          </div>
-        </div>
-      </div>
-    </section>
+            ${p.links?.doi? `<a href="${p.links.doi}" class="text-blue-600 hover:underline">DOI</a>`:''}
+            ${p.links?.pdf? `<a href="${p.links.pdf}" class="text-blue-600 hover:underline">PDF</a>`:''}
+          </div>`;
+        wrap.appendChild(div);
+      });
+    });
+</script>
 
     <!-- News -->
     <section id="news" class="py-20">
