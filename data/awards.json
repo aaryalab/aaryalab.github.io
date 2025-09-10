@@ -1,1 +1,22 @@
-
+[
+  {
+    "year": 2023,
+    "name": "Student Encouragement Award",
+    "by": "The Society of Chemical Engineers, Japan",
+    "event": "88th Annual Meeting of SCEJ",
+    "location": "TUAT, Tokyo",
+    "title": "分子インプリントポリマーを用いたチップ型ヒスタミンセンサによる魚肉鮮度評価の可能性",
+    "authors": "櫻井 日陽, Aaryashree, 吉見 靖男",
+    "recipient": "櫻井 日陽"
+  },
+  {
+    "year": 2023,
+    "name": "Student Outstanding Presentation Award",
+    "by": "Japanese Society of Therapeutic Drug Monitoring",
+    "event": "39th Annual Meeting",
+    "location": "Kyoto, Japan",
+    "title": "分子インプリント固定カーボンペーストを用いた使い捨てセンサの感度保持に関する研究",
+    "authors": "平田 碧生, Aaryashree, 吉見 靖男",
+    "recipient": "平田 碧生"
+  }
+]
