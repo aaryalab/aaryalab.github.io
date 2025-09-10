@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Advanced Electronics & Sensor Devices Lab | Shibaura Institute of Technology</title>
+    <title>Research | Advanced Electronics & Sensor Devices Lab</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         body{font-family:'Inter',sans-serif}
-        .section-header{position:relative;padding-bottom:.5rem}
-        .section-header::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:64px;height:3px;background-color:#3B82F6}
         .nav-link-active { color: #2563EB; font-weight: 600; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
-
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -24,13 +19,13 @@
                 Advanced Electronics & Sensor Devices Lab
             </a>
             <div class="hidden md:flex items-center gap-6 text-gray-600">
-                <a href="index.html" class="nav-link-active">Home</a>
-                <a href="research.html" class="hover:text-blue-600">Research</a>
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="research.html" class="nav-link-active">Research</a>
                 <a href="team.html" class="hover:text-blue-600">Team</a>
                 <a href="teaching.html" class="hover:text-blue-600">Teaching</a>
                 <a href="publications.html" class="hover:text-blue-600">Publications</a>
-                <a href="#news" class="hover:text-blue-600">News</a>
-                <a href="#join" class="hover:text-blue-600">Join Us</a>
+                <a href="index.html#news" class="hover:text-blue-600">News</a>
+                <a href="index.html#join" class="hover:text-blue-600">Join Us</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -39,134 +34,295 @@
             </button>
         </nav>
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-            <a href="index.html" class="block text-gray-600 nav-link-active">Home</a>
-            <a href="research.html" class="block text-gray-600 hover:text-blue-600">Research</a>
+            <a href="index.html" class="block text-gray-600 hover:text-blue-600">Home</a>
+            <a href="research.html" class="block text-gray-600 nav-link-active">Research</a>
             <a href="team.html" class="block text-gray-600 hover:text-blue-600">Team</a>
             <a href="teaching.html" class="block text-gray-600 hover:text-blue-600">Teaching</a>
             <a href="publications.html" class="block text-gray-600 hover:text-blue-600">Publications</a>
-            <a href="#news" class="block text-gray-600 hover:text-blue-600">News</a>
-            <a href="#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
+            <a href="index.html#news" class="block text-gray-600 hover:text-blue-600">News</a>
+            <a href="index.html#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
         </div>
     </header>
 
     <main class="container mx-auto px-6">
-
         <!-- Hero -->
-        <section id="home" class="py-20 text-center">
-            <div class="max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
-                    From Nanomaterials to Intelligent Devices: Printed Electronics, Biosensors, and Beyond
-                </h1>
-                <p class="mt-6 text-lg text-gray-600">
-                    We engineer next-generation electronics and sensors by merging materials science, biochemistry,
-                    scalable printing, and AI. Our work spans flexible devices, neuromorphic and memory elements,
-                    tactile arrays, and sustainable electronics for Society 5.0.
-                </p>
-                <div class="mt-8 flex justify-center gap-4">
-                    <a href="research.html" class="inline-block bg-blue-600 text-white font-semibold py-3 px-7 rounded-lg shadow-md hover:bg-blue-700 transition">
-                        Explore Research
-                    </a>
-                    <a href="#join" class="inline-block bg-white border border-gray-300 text-gray-800 font-semibold py-3 px-7 rounded-lg hover:border-blue-600 hover:text-blue-700 transition">
-                        Collaborate With Us
-                    </a>
-                </div>
+        <section class="py-14">
+            <h1 class="text-4xl md:text-5xl font-black">Research</h1>
+            <p class="mt-4 max-w-3xl text-lg text-gray-600">
+                From printed nanomaterials to neuromorphic devices, we build flexible, intelligent, and sustainable electronics for Society 5.0.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3 text-sm">
+                <a href="#clusters" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Clusters</a>
+                <a href="#projects" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Projects</a>
+                <a href="#pubs" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Publications</a>
+                <a href="#conferences" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Conferences</a>
+                <a href="#lectures" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Invited Lectures</a>
+                <a href="#patents" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Patents</a>
+                <a href="#awards" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Awards</a>
+                <a href="#funding" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Funding</a>
+                <a href="#others" class="px-3 py-1 rounded-full border bg-white hover:border-blue-600 transition">Other</a>
             </div>
-            <div class="mt-12 relative max-w-5xl mx-auto">
-                <img src="https://placehold.co/1200x560/0ea5e9/ffffff?text=Printed+Electronics+%7C+Flexible+Sensors+%7C+Neuromorphic" alt="Lab visual"
-                     class="rounded-xl shadow-xl w-full">
-                <div class="absolute inset-0 rounded-xl ring-1 ring-black/5 pointer-events-none"></div>
-            </div>
-        </section>
-        
-        <!-- Publications Preview -->
-        <section id="publications" class="py-20 border-t">
-          <h2 class="section-header text-3xl font-bold text-center">Recent Publications</h2>
-          <div id="pubPreview" class="mt-12 space-y-4 max-w-4xl mx-auto">
-              <!-- JS will populate this -->
-              <p class="text-center text-gray-500">Loading publications...</p>
-          </div>
-          <div class="mt-8 text-center">
-            <a href="publications.html" 
-               class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-700 transition-all">
-               View All Publications
-            </a>
-          </div>
         </section>
 
-        <!-- News -->
-        <section id="news" class="py-20 border-t">
-            <h2 class="section-header text-3xl font-bold text-center">Lab News & Events</h2>
-            <div class="mt-12 space-y-6 max-w-4xl mx-auto">
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 09, 2025</div>
-                    <div class="text-gray-700">Talk on neuromorphic devices at the <span class="font-semibold">International Conference on Advanced Materials</span>, Tokyo.</div>
+        <!-- Research Clusters -->
+        <section id="clusters" class="py-8">
+            <h2 class="text-2xl font-bold">Research Clusters</h2>
+            <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl border shadow-sm">
+                    <h3 class="font-semibold text-lg">Printed Nanomaterials</h3>
+                    <p class="mt-2 text-gray-600">MXene/CNT/graphene inks, rheology &amp; printing science, large-area films.</p>
                 </div>
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Aug 22, 2025</div>
-                    <div class="text-gray-700">Paper accepted: “AI-Integrated Flexible Electronics for Health Monitoring,” <span class="italic">Advanced Functional Materials</span>.</div>
+                <div class="bg-white p-6 rounded-xl border shadow-sm">
+                    <h3 class="font-semibold text-lg">Neuromorphic &amp; Memory</h3>
+                    <p class="mt-2 text-gray-600">RRAM/synaptic devices, device physics, energy-efficient AI.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border shadow-sm">
+                    <h3 class="font-semibold text-lg">Tactile &amp; Health Sensing</h3>
+                    <p class="mt-2 text-gray-600">Flexible tactile arrays, wearables, ML pipelines, real-time analytics.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border shadow-sm">
+                    <h3 class="font-semibold text-lg">Sustainable Electronics</h3>
+                    <p class="mt-2 text-gray-600">Eco-inks, recyclable substrates, low-energy processes.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Join -->
-        <section id="join" class="py-20 border-t">
-            <div class="max-w-4xl mx-auto bg-blue-50 border-2 border-blue-200 p-8 rounded-xl text-center">
-                <h2 class="text-3xl font-bold text-gray-900">Collaborate With Us</h2>
-                <p class="mt-4 text-gray-700">
-                    We partner across academia and industry on printed electronics, intelligent sensing, and sustainable
-                    device manufacturing. If you’re building healthcare, robotics, or environmental technologies, let’s talk.
-                </p>
-                 <a href="mailto:aarya@shibaura-it.ac.jp" class="mt-8 inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition">
-                    Contact Us
-                </a>
+        <!-- Active Projects -->
+        <section id="projects" class="py-12 border-t">
+            <h2 class="text-2xl font-bold">Active Projects</h2>
+            <div id="projectsList" class="mt-6 grid md:grid-cols-2 gap-6"></div>
+        </section>
+
+        <!-- Publications preview -->
+        <section id="pubs" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Selected Publications</h2>
+                <a href="publications.html" class="text-sm text-blue-700 hover:underline">View all</a>
             </div>
+            <ol id="pubsList" class="mt-6 space-y-4 list-decimal list-inside"></ol>
+        </section>
+
+        <!-- Conferences -->
+        <section id="conferences" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Conferences &amp; Oral Presentations</h2>
+                <span id="confCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="confList" class="mt-6 space-y-4"></ul>
+        </section>
+
+        <!-- Invited / Expert Lectures -->
+        <section id="lectures" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Invited / Expert Lectures</h2>
+                <span id="lecCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="lecList" class="mt-6 space-y-4"></ul>
+        </section>
+
+        <!-- Patents -->
+        <section id="patents" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Patents</h2>
+                <span id="patCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="patentList" class="mt-6 space-y-4"></ul>
+        </section>
+
+        <!-- Awards -->
+        <section id="awards" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Awards</h2>
+                <span id="awCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="awardList" class="mt-6 space-y-4"></ul>
+        </section>
+
+        <!-- Funding -->
+        <section id="funding" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Research Funding</h2>
+                <span id="fundCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="fundList" class="mt-6 space-y-4"></ul>
+        </section>
+
+        <!-- Others -->
+        <section id="others" class="py-12 border-t">
+            <div class="flex items-baseline justify-between">
+                <h2 class="text-2xl font-bold">Other Presentations</h2>
+                <span id="otherCount" class="text-sm text-gray-500"></span>
+            </div>
+            <ul id="otherList" class="mt-6 space-y-4"></ul>
         </section>
     </main>
 
-    <footer class="bg-gray-900 text-white py-6">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; <span id="year"></span> Advanced Electronics & Sensor Devices Lab, Shibaura Institute of Technology.</p>
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="container mx-auto px-6 py-6 text-center">
+            © <span id="year"></span> AESD Lab, SIT.
         </div>
     </footer>
 
     <script>
-        // year
         document.getElementById('year').textContent = new Date().getFullYear();
-
-        // mobile menu
+        // Mobile menu script
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         if(mobileMenuButton) mobileMenuButton.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
         if(mobileMenu) mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
 
-        // Fetch publications for preview
-        fetch('data/publications.json')
-            .then(r => r.json())
-            .then(pubs => {
-                pubs.sort((a,b) => (b.year||0)-(a.year||0)); // newest first
-                const preview = pubs.slice(0,3); // take 3 latest
-                const wrap = document.getElementById('pubPreview');
-                wrap.innerHTML = ''; // Clear loading text
-                preview.forEach(p => {
-                    const div = document.createElement('div');
-                    div.className = 'bg-white p-6 rounded-lg shadow-sm border border-gray-200';
-                    div.innerHTML = `
-                        <p class="text-gray-700">
-                            <span class="font-bold">${p.authors}</span> (${p.year}). ${p.title}.
-                            <span class="italic">${p.venue||''}</span>
-                            ${p.volume? p.volume:''}${p.issue?'('+p.issue+')':''}${p.pages?', '+p.pages:''}.
-                        </p>
-                        <div class="mt-2 space-x-4 text-sm">
-                            ${p.links?.doi? `<a href="${p.links.doi}" target="_blank" class="text-blue-600 hover:underline">DOI</a>`:''}
-                            ${p.links?.pdf? `<a href="${p.links.pdf}" target="_blank" class="text-blue-600 hover:underline">PDF</a>`:''}
-                        </div>`;
-                    wrap.appendChild(div);
+        const fmtDate = d => d ? new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '';
+
+        function card(html){
+            const li = document.createElement('li');
+            li.className = 'bg-white p-5 rounded-lg border shadow-sm';
+            li.innerHTML = html;
+            return li;
+        }
+
+        // Load all JSON data
+        Promise.all([
+            fetch('data/projects.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/publications.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/conferences.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/invited_lectures.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/patents.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/awards.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/funding.json').then(r=>r.json()).catch(()=>[]),
+            fetch('data/others.json').then(r=>r.json()).catch(()=>[])
+        ]).then(([projects,pubs,confs,lectures,patents,awards,funding,others])=>{
+            /* Projects */
+            const pWrap = document.getElementById('projectsList');
+            if(pWrap) {
+                pWrap.innerHTML = '';
+                projects.forEach(p=>{
+                    const el = document.createElement('article');
+                    el.className='bg-white p-6 rounded-xl border shadow-sm';
+                    el.innerHTML = `
+                        <h3 class="text-lg font-semibold">${p.title}</h3>
+                        <p class="mt-2 text-gray-600">${p.description||''}</p>
+                    `;
+                    pWrap.appendChild(el);
                 });
-            })
-            .catch(error => {
-                console.error('Error fetching publications preview:', error);
-                document.getElementById('pubPreview').innerHTML = '<p class="text-center text-red-500">Could not load recent publications.</p>';
+            }
+
+            /* Selected publications (6 newest) */
+            const pubWrap = document.getElementById('pubsList');
+            if(pubWrap) {
+                pubWrap.innerHTML = '';
+                pubs.sort((a,b)=>(b.year||0)-(a.year||0)).slice(0,6).forEach(p=>{
+                    const li = document.createElement('li');
+                    li.className='text-gray-700';
+                    li.innerHTML = `
+                        <span class="font-semibold">${p.authors||''}</span> (${p.year||''}). ${p.title||''}. 
+                        <span class="italic">${p.venue||''}</span>.
+                        ${p.links?.doi?` <a class="text-blue-700 hover:underline" href="${p.links.doi}" target="_blank">DOI</a>`:''}
+                        ${p.links?.pdf?` · <a class="text-blue-700 hover:underline" href="${p.links.pdf}" target="_blank">PDF</a>`:''}
+                    `;
+                    pubWrap.appendChild(li);
+                });
+            }
+
+            /* Conferences */
+            const confWrap = document.getElementById('confList');
+            if(confWrap) {
+                confWrap.innerHTML = '';
+                confs.sort((a,b)=>new Date(b.date)-new Date(a.date)).forEach(c=>{
+                    confWrap.appendChild(card(`
+                        <div class="text-sm text-gray-500">${fmtDate(c.date)}</div>
+                        <div class="font-semibold">${c.title||''}</div>
+                        <div class="text-gray-700">${c.event||''}${c.location?' — '+c.location:''}</div>
+                        <div class="text-sm text-gray-600 mt-1">${c.authors || ''}</div>
+                    `));
+                });
+                const confCount = document.getElementById('confCount');
+                if(confCount) confCount.textContent = confs.length ? `${confs.length} items` : '';
+            }
+
+            /* Lectures */
+            const lecWrap = document.getElementById('lecList');
+            if(lecWrap) {
+                lecWrap.innerHTML = '';
+                lectures.sort((a,b)=>new Date(b.date)-new Date(a.date)).forEach(x=>{
+                    lecWrap.appendChild(card(`
+                        <div class="text-sm text-gray-500">${fmtDate(x.date)}</div>
+                        <div class="font-semibold">${x.title||''}</div>
+                        <div class="text-gray-700">${x.event||''}${x.location?' — '+x.location:''}</div>
+                    `));
+                });
+                const lecCount = document.getElementById('lecCount');
+                if(lecCount) lecCount.textContent = lectures.length ? `${lectures.length} items` : '';
+            }
+            
+            /* Patents */
+            const patWrap = document.getElementById('patentList');
+            if(patWrap) {
+                patWrap.innerHTML = '';
+                patents.sort((a,b)=>new Date(b.filed)-new Date(a.filed)).forEach(p=>{
+                    patWrap.appendChild(card(`
+                        <div class="font-semibold">${p.title||''}</div>
+                        <div class="text-gray-700">Inventors: ${p.inventors||''}</div>
+                        <div class="text-sm text-gray-500">No. ${p.number||''} · Status: ${p.status || ''} · Filed: ${fmtDate(p.filed)}</div>
+                    `));
+                });
+                const patCount = document.getElementById('patCount');
+                if(patCount) patCount.textContent = patents.length ? `${patents.length} items` : '';
+            }
+
+            /* Awards */
+            const awWrap = document.getElementById('awardList');
+            if(awWrap) {
+                awWrap.innerHTML = '';
+                awards.sort((a,b)=> (b.year||0)-(a.year||0)).forEach(a=>{
+                    awWrap.appendChild(card(`
+                        <div class="font-semibold">${a.name||''} (${a.year||''})</div>
+                        <div class="text-gray-700">${a.by||''}</div>
+                    `));
+                });
+                const awCount = document.getElementById('awCount');
+                if(awCount) awCount.textContent = awards.length ? `${awards.length} items` : '';
+            }
+
+            /* Funding */
+            const fundWrap = document.getElementById('fundList');
+            if(fundWrap){
+                fundWrap.innerHTML = '';
+                funding.sort((a,b)=> (b.year_end||b.year_start||0) - (a.year_end||a.year_start||0)).forEach(g=>{
+                    fundWrap.appendChild(card(`
+                        <div class="font-semibold">${g.title||''}</div>
+                        <div class="text-gray-700">${g.agency||''}</div>
+                        <div class="text-sm text-gray-500">
+                            ${g.year_start||''}${g.year_end?`–${g.year_end}`:''} · ${g.role||''} ${g.amount_jpy_m?` · ¥${g.amount_jpy_m}M`:''}
+                        </div>
+                    `));
+                });
+                const fundCount = document.getElementById('fundCount');
+                if(fundCount) fundCount.textContent = funding.length ? `${funding.length} items` : '';
+            }
+
+            /* Others */
+            const otherWrap = document.getElementById('otherList');
+            if(otherWrap){
+                otherWrap.innerHTML = '';
+                others.sort((a,b)=>new Date(b.date)-new Date(a.date)).forEach(o=>{
+                    otherWrap.appendChild(card(`
+                        <div class="text-sm text-gray-500">${fmtDate(o.date)}</div>
+                        <div class="font-semibold">${o.title||''}</div>
+                        <div class="text-gray-700">${o.event||''}${o.location?' — '+o.location:''}</div>
+                    `));
+                });
+                const otherCount = document.getElementById('otherCount');
+                if(otherCount) otherCount.textContent = others.length ? `${others.length} items` : '';
+            }
+        }).catch(err=>{
+            console.error(err);
+            // Fallback error message
+            const errorMsg = '<p class="text-red-600 mt-4">Failed to load data. Please ensure /data/*.json files exist and are valid.</p>';
+            ['projectsList', 'pubsList', 'confList', 'lecList', 'patentList', 'awardList', 'fundList', 'otherList'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = errorMsg;
             });
+        });
     </script>
 </body>
 </html>
