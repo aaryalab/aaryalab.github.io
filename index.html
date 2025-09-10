@@ -1,172 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Advanced Electronics and Sensor Devices Lab | Shibaura Institute of Technology</title>
+    <title>Advanced Electronics & Sensor Devices Lab | Shibaura Institute of Technology</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body{font-family:'Inter',sans-serif}
-        .section-header{position:relative;padding-bottom:.5rem}
-        .section-header::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:64px;height:3px;background-color:#3B82F6}
-        .nav-link-active { color: #2563EB; font-weight: 600; }
+        body { 
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .nav-link-active { 
+            color: #1e40af; /* A richer blue for the active link */
+            font-weight: 600; 
+        }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-slate-50 text-gray-800">
 
-    <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+    <!-- Simple Header -->
+    <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="text-base md:text-lg font-bold text-gray-900 tracking-tight">
-                Advanced Electronics & Sensor Devices Lab
+            <a href="index.html" class="font-semibold text-gray-900">
+                AESD Lab
             </a>
-            <div class="hidden md:flex items-center gap-6 text-gray-600">
+            <div class="flex items-center gap-6 text-sm text-gray-500">
                 <a href="index.html" class="nav-link-active">Home</a>
-                <a href="research.html" class="hover:text-blue-600">Research</a>
-                <a href="team.html" class="hover:text-blue-600">Team</a>
-                <a href="teaching.html" class="hover:text-blue-600">Teaching</a>
-                <a href="publications.html" class="hover:text-blue-600">Publications</a>
-                <a href="#news" class="hover:text-blue-600">News</a>
-                <a href="#join" class="hover:text-blue-600">Join Us</a>
+                <a href="research.html" class="hover:text-gray-900">Research</a>
+                <a href="team.html" class="hover:text-gray-900">Team</a>
+                <a href="teaching.html" class="hover:text-gray-900">Teaching</a>
+                <a href="publications.html" class="hover:text-gray-900">Publications</a>
             </div>
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
-                </svg>
-            </button>
         </nav>
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-            <a href="index.html" class="block text-gray-600 nav-link-active">Home</a>
-            <a href="research.html" class="block text-gray-600 hover:text-blue-600">Research</a>
-            <a href="team.html" class="block text-gray-600 hover:text-blue-600">Team</a>
-            <a href="teaching.html" class="block text-gray-600 hover:text-blue-600">Teaching</a>
-            <a href="publications.html" class="block text-gray-600 hover:text-blue-600">Publications</a>
-            <a href="#news" class="block text-gray-600 hover:text-blue-600">News</a>
-            <a href="#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
-        </div>
     </header>
 
-    <main class="container mx-auto px-6">
+    <main class="container mx-auto px-6 py-20">
+        <div class="max-w-4xl mx-auto">
 
-        <!-- Hero -->
-        <section id="home" class="py-20 text-center">
-            <div class="max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
-                    From Nanomaterials to Intelligent Devices: Printed Electronics, Biosensors, and Beyond
-                </h1>
-                <p class="mt-6 text-lg text-gray-600">
-                    We engineer next-generation electronics and sensors by merging materials science, biochemistry,
-                    scalable printing, and AI. Our work spans flexible devices, neuromorphic and memory elements,
-                    tactile arrays, and sustainable electronics for Society 5.0.
-                </p>
-                <div class="mt-8 flex justify-center gap-4">
-                    <a href="research.html" class="inline-block bg-blue-600 text-white font-semibold py-3 px-7 rounded-lg shadow-md hover:bg-blue-700 transition">
-                        Explore Research
-                    </a>
-                    <a href="#join" class="inline-block bg-white border border-gray-300 text-gray-800 font-semibold py-3 px-7 rounded-lg hover:border-blue-600 hover:text-blue-700 transition">
-                        Collaborate With Us
-                    </a>
+            <!-- NEW Title Section with Image -->
+            <section class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="md:order-2">
+                    <!-- EDIT HERE: Replace this placeholder with a high-quality photo of your lab, equipment, or research -->
+                    <img src="https://images.unsplash.com/photo-1581093581563-5330398b6257?q=80&w=1740&auto=format&fit=crop" 
+                         alt="Advanced electronics research lab" 
+                         class="rounded-lg shadow-md aspect-square object-cover">
                 </div>
-            </div>
-            <div class="mt-12 relative max-w-5xl mx-auto">
-                <img src="https://placehold.co/1200x560/0ea5e9/ffffff?text=Printed+Electronics+%7C+Flexible+Sensors+%7C+Neuromorphic" alt="Lab visual"
-                     class="rounded-xl shadow-xl w-full">
-                <div class="absolute inset-0 rounded-xl ring-1 ring-black/5 pointer-events-none"></div>
-            </div>
-        </section>
-        
-        <!-- Publications Preview -->
-        <section id="publications" class="py-20 border-t">
-          <h2 class="section-header text-3xl font-bold text-center">Recent Publications</h2>
-          <div id="pubPreview" class="mt-12 space-y-4 max-w-4xl mx-auto">
-              <!-- JS will populate this -->
-              <p class="text-center text-gray-500">Loading publications...</p>
-          </div>
-          <div class="mt-8 text-center">
-            <a href="publications.html" 
-               class="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-700 transition-all">
-               View All Publications
-            </a>
-          </div>
-        </section>
+                <div class="md:order-1">
+                    <h1 class="text-4xl font-bold text-gray-900">
+                        Advanced Electronics and Sensor Devices Lab
+                    </h1>
+                    <p class="mt-3 text-lg text-gray-600">
+                        We study nanomaterials and devices for the next generation of electronics.
+                    </p>
+                    <p class="mt-6 text-base text-gray-700">
+                        Our group explores nanomaterials and their application in novel electronic devices — from memory and neuromorphic computing to biosensors and flexible AI-integrated sensors.
+                    </p>
+                </div>
+            </section>
 
-        <!-- News -->
-        <section id="news" class="py-20 border-t">
-            <h2 class="section-header text-3xl font-bold text-center">Lab News & Events</h2>
-            <div class="mt-12 space-y-6 max-w-4xl mx-auto">
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 09, 2025</div>
-                    <div class="text-gray-700">Talk on neuromorphic devices at the <span class="font-semibold">International Conference on Advanced Materials</span>, Tokyo.</div>
-                </div>
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Aug 22, 2025</div>
-                    <div class="text-gray-700">Paper accepted: “AI-Integrated Flexible Electronics for Health Monitoring,” <span class="italic">Advanced Functional Materials</span>.</div>
-                </div>
-            </div>
-        </section>
+            <!-- Research Areas -->
+            <section class="mt-20">
+                <h2 class="text-xl font-semibold text-blue-700">Research Areas</h2>
+                <ul class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                    <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M12 5V3m0 18v-2"></path></svg>Nanomaterials for Electronics</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 10l2 1m-2-1l2-1m-2 1v2.5M7 16l2-1m-2 1l2 1m-2-1v-2.5"></path></svg>Memory & Neuromorphic Devices</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>Biosensors</li>
+                    <li class="flex items-center"><svg class="w-4 h-4 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>Flexible & AI-integrated Electronics</li>
+                </ul>
+            </section>
 
-        <!-- Join -->
-        <section id="join" class="py-20 border-t">
-            <div class="max-w-4xl mx-auto bg-blue-50 border-2 border-blue-200 p-8 rounded-xl text-center">
-                <h2 class="text-3xl font-bold text-gray-900">Collaborate With Us</h2>
-                <p class="mt-4 text-gray-700">
-                    We partner across academia and industry on printed electronics, intelligent sensing, and sustainable
-                    device manufacturing. If you’re building healthcare, robotics, or environmental technologies, let’s talk.
-                </p>
-                 <a href="mailto:aarya@shibaura-it.ac.jp" class="mt-8 inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition">
-                    Contact Us
-                </a>
-            </div>
-        </section>
+            <!-- Recent Highlights -->
+            <section class="mt-12">
+                <h2 class="text-xl font-semibold text-blue-700">Recent Highlights</h2>
+                 <ul class="mt-4 space-y-3 text-gray-700">
+                    <li><span class="font-semibold text-gray-500 w-12 inline-block">2025</span> Paper in <em class="italic">Optics Continuum</em> on arsenic detection</li>
+                    <li><span class="font-semibold text-gray-500 w-12 inline-block">2024</span> Invited lecture at SVNIT on biosensors</li>
+                    <li><span class="font-semibold text-gray-500 w-12 inline-block">2023</span> Award at SCEJ Annual Meeting</li>
+                </ul>
+            </section>
+        </div>
     </main>
 
-    <footer class="bg-gray-900 text-white py-6">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; <span id="year"></span> Advanced Electronics & Sensor Devices Lab, Shibaura Institute of Technology.</p>
+    <footer class="mt-20 border-t border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-10">
+            <div class="max-w-2xl mx-auto text-gray-600 text-sm">
+                <h2 class="font-semibold text-gray-800">Contact</h2>
+                <p class="mt-2">Advanced Electronics & Sensor Devices Lab</p>
+                <p>Shibaura Institute of Technology, Tokyo</p>
+                <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline">aarya@shibaura-it.ac.jp</a>
+            </div>
         </div>
     </footer>
 
-    <script>
-        // year
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        // mobile menu
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        if(mobileMenuButton) mobileMenuButton.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
-        if(mobileMenu) mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
-
-        // Fetch publications for preview
-        fetch('data/publications.json')
-            .then(r => r.json())
-            .then(pubs => {
-                pubs.sort((a,b) => (b.year||0)-(a.year||0)); // newest first
-                const preview = pubs.slice(0,3); // take 3 latest
-                const wrap = document.getElementById('pubPreview');
-                wrap.innerHTML = ''; // Clear loading text
-                preview.forEach(p => {
-                    const div = document.createElement('div');
-                    div.className = 'bg-white p-6 rounded-lg shadow-sm border border-gray-200';
-                    div.innerHTML = `
-                        <p class="text-gray-700">
-                            <span class="font-bold">${p.authors}</span> (${p.year}). ${p.title}.
-                            <span class="italic">${p.venue||''}</span>
-                            ${p.volume? p.volume:''}${p.issue?'('+p.issue+')':''}${p.pages?', '+p.pages:''}.
-                        </p>
-                        <div class="mt-2 space-x-4 text-sm">
-                            ${p.links?.doi? `<a href="${p.links.doi}" target="_blank" class="text-blue-600 hover:underline">DOI</a>`:''}
-                            ${p.links?.pdf? `<a href="${p.links.pdf}" target="_blank" class="text-blue-600 hover:underline">PDF</a>`:''}
-                        </div>`;
-                    wrap.appendChild(div);
-                });
-            })
-            .catch(error => {
-                console.error('Error fetching publications preview:', error);
-                document.getElementById('pubPreview').innerHTML = '<p class="text-center text-red-500">Could not load recent publications.</p>';
-            });
-    </script>
 </body>
 </html>
