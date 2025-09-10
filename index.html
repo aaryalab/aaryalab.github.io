@@ -1,297 +1,336 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Electronics and Sensor Devices Lab | Shibaura Institute of Technology</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .section-header {
-            position: relative;
-            padding-bottom: 0.5rem;
-        }
-        .section-header::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background-color: #3B82F6; /* blue-500 */
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Electronics & Sensor Devices Lab | Shibaura Institute of Technology</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Inter',sans-serif}
+    .section-header{position:relative;padding-bottom:.5rem}
+    .section-header::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:64px;height:3px;background-color:#3B82F6}
+  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Header & Navigation -->
-    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-gray-900">Advanced Electronics and Sensor Devices Lab</a>
-            <div class="hidden md:flex items-center space-x-6 text-gray-600">
-                <a href="#home" class="hover:text-blue-500 transition-colors">Home</a>
-                <a href="#research" class="hover:text-blue-500 transition-colors">Research</a>
-                <a href="#team" class="hover:text-blue-500 transition-colors">Team</a>
-                <a href="#teaching" class="hover:text-blue-500 transition-colors">Teaching</a>
-                <a href="#publications" class="hover:text-blue-500 transition-colors">Publications</a>
-                <a href="#news" class="hover:text-blue-500 transition-colors">News</a>
-                <a href="#join" class="hover:text-blue-500 transition-colors">Join Us</a>
-                <a href="#contact" class="hover:text-blue-500 transition-colors">Contact</a>
-            </div>
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
-            </button>
-        </nav>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
-            <a href="#home" class="block text-gray-600 hover:text-blue-500 transition-colors">Home</a>
-            <a href="#research" class="block text-gray-600 hover:text-blue-500 transition-colors">Research</a>
-            <a href="#team" class="block text-gray-600 hover:text-blue-500 transition-colors">Team</a>
-            <a href="#teaching" class="block text-gray-600 hover:text-blue-500 transition-colors">Teaching</a>
-            <a href="#publications" class="block text-gray-600 hover:text-blue-500 transition-colors">Publications</a>
-            <a href="#news" class="block text-gray-600 hover:text-blue-500 transition-colors">News</a>
-            <a href="#join" class="block text-gray-600 hover:text-blue-500 transition-colors">Join Us</a>
-            <a href="#contact" class="block text-gray-600 hover:text-blue-500 transition-colors">Contact</a>
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#home" class="text-base md:text-lg font-bold text-gray-900 tracking-tight">
+        Advanced Electronics & Sensor Devices Lab
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-gray-600">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#research" class="hover:text-blue-600">Research</a>
+        <a href="#team" class="hover:text-blue-600">Team</a>
+        <a href="#teaching" class="hover:text-blue-600">Teaching</a>
+        <a href="#publications" class="hover:text-blue-600">Publications</a>
+        <a href="#news" class="hover:text-blue-600">News</a>
+        <a href="#join" class="hover:text-blue-600">Join Us</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+      <a href="#home" class="block text-gray-600 hover:text-blue-600">Home</a>
+      <a href="#research" class="block text-gray-600 hover:text-blue-600">Research</a>
+      <a href="#team" class="block text-gray-600 hover:text-blue-600">Team</a>
+      <a href="#teaching" class="block text-gray-600 hover:text-blue-600">Teaching</a>
+      <a href="#publications" class="block text-gray-600 hover:text-blue-600">Publications</a>
+      <a href="#news" class="block text-gray-600 hover:text-blue-600">News</a>
+      <a href="#join" class="block text-gray-600 hover:text-blue-600">Join Us</a>
+      <a href="#contact" class="block text-gray-600 hover:text-blue-600">Contact</a>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6">
+
+    <!-- Hero -->
+    <section id="home" class="py-20 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
+          From Nanomaterials to Intelligent Devices: Printed Electronics, Biosensors, and Beyond
+        </h1>
+        <p class="mt-6 text-lg text-gray-600">
+          We engineer next-generation electronics and sensors by merging materials science, biochemistry,
+          scalable printing, and AI. Our work spans flexible devices, neuromorphic and memory elements,
+          tactile arrays, and sustainable electronics for Society 5.0.
+        </p>
+        <div class="mt-8 flex justify-center gap-4">
+          <a href="#research" class="inline-block bg-blue-600 text-white font-semibold py-3 px-7 rounded-lg shadow-md hover:bg-blue-700 transition">
+            Explore Research
+          </a>
+          <a href="#join" class="inline-block bg-white border border-gray-300 text-gray-800 font-semibold py-3 px-7 rounded-lg hover:border-blue-600 hover:text-blue-700 transition">
+            Collaborate With Us
+          </a>
         </div>
-    </header>
+      </div>
+      <div class="mt-12 relative max-w-5xl mx-auto">
+        <img src="https://placehold.co/1200x560/0ea5e9/ffffff?text=Printed+Electronics+%7C+Flexible+Sensors+%7C+Neuromorphic" alt="Lab visual"
+             class="rounded-xl shadow-xl w-full">
+        <div class="absolute inset-0 rounded-xl ring-1 ring-black/5 pointer-events-none"></div>
+      </div>
+    </section>
 
-    <main class="container mx-auto px-6">
+    <!-- Research -->
+    <section id="research" class="py-20">
+      <h2 class="section-header text-3xl font-bold text-center">Our Research</h2>
 
-        <!-- Home Section -->
-        <section id="home" class="text-center py-20">
-            <div class="max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">Engineering Novel Sensors for a Healthier and Safer World</h1>
-                <p class="mt-6 text-lg text-gray-600">
-                    Welcome to the Advanced Electronics and Sensor Devices Lab. We operate at the intersection of physics, chemistry, and electronics to create cutting-edge biosensors and nanomaterial-based devices. Our mission is to develop sensitive, reliable technology for critical applications in healthcare, drug monitoring, and food safety.
-                </p>
-                <a href="#join" class="mt-8 inline-block bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-600 transition-all transform hover:scale-105">Join Our Team</a>
+      <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- 1 Printed Nanomaterials -->
+        <article class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v12m6-6H6"/></svg>
+            <div>
+              <h3 class="text-xl font-semibold">Printed Nanomaterials for Flexible Electronics</h3>
+              <p class="mt-2 text-gray-600">
+                MXene, CNT, and graphene inks for scalable screen-printing of high-performance films,
+                enabling wearable devices, flexible circuits, and large-area systems.
+              </p>
             </div>
-            <img src="https://placehold.co/1200x600/E2E8F0/4A5568?text=Shibaura+Institute+of+Technology" alt="Lab Photo" class="mt-12 rounded-lg shadow-xl w-full max-w-5xl mx-auto">
-        </section>
+          </div>
+        </article>
 
-        <!-- Research Section -->
-        <section id="research" class="py-20">
-            <h2 class="section-header text-3xl font-bold text-center">Our Research</h2>
-            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Antibacterial Drug Sensors</h3>
-                    <p class="text-gray-600">
-                        To combat the rise of bacterial resistance, we are developing electrochemical sensors with modified carbon to rapidly and accurately detect antibacterial drugs, providing crucial data for monitoring drug usage in healthcare.
-                    </p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Anti-epileptic Drug Sensors</h3>
-                    <p class="text-gray-600">
-                        We aim to improve epilepsy management by creating sensors that precisely measure anti-epileptic drug levels in a patient's system, enabling optimized dosing and better therapeutic outcomes.
-                    </p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Food Toxin Sensors</h3>
-                    <p class="text-gray-600">
-                       To ensure the safety of our food supply, this project focuses on electrochemical sensors that can quickly identify toxins like histamine and inosine, preventing foodborne illness and protecting public health.
-                    </p>
-                </div>
+        <!-- 2 Neuromorphic & Memory -->
+        <article class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18"/></svg>
+            <div>
+              <h3 class="text-xl font-semibold">Neuromorphic & Memory Devices</h3>
+              <p class="mt-2 text-gray-600">
+                Printed resistive switching and synaptic devices for brain-inspired, energy-efficient
+                computation in robotics and intelligent sensing.
+              </p>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <!-- Team Section -->
-        <section id="team" class="py-20">
-            <h2 class="section-header text-3xl font-bold text-center">Meet the Principal Investigator</h2>
-            
-            <div class="mt-12 bg-white p-8 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-8 border border-gray-200">
-                <img src="https://shibaura.elsevierpure.com/ws/api/きほんじょうほう/persons/a2253457-3f33-4c60-8f9f-68246a36154c/photo" alt="Aaryashree Aaryashree" class="w-40 h-40 rounded-full object-cover ring-4 ring-blue-200">
-                <div>
-                    <h3 class="text-2xl font-bold">Aaryashree (Aarya)</h3>
-                    <p class="text-blue-600 font-semibold">Associate Professor</p>
-                    <p class="mt-4 text-gray-600">
-                        Dr. Aaryashree is an educator and researcher with over seven years of experience in nanomaterial-based electronics and sensor design. Her work is driven by a philosophy that "Education encompasses not only formal university studies, but also the acquisition of new knowledge, the unlearning of outdated concepts, and the experiences gained from the process of learning."
-                    </p>
-                    <p class="mt-2 text-gray-600">
-                        When not in the lab, she enjoys discussing geopolitics and current events with her partner over Indian tea or working on DIY projects.
-                    </p>
-                    <div class="mt-4 flex space-x-4">
-                        <a href="mailto:aarya@shibaura-it.ac.jp" class="text-gray-500 hover:text-blue-500">Email</a>
-                        <a href="https://scholar.google.com/citations?user=9o23iIcAAAAJ" target="_blank" class="text-gray-500 hover:text-blue-500">Google Scholar</a>
-                        <a href="https://shibaura.elsevierpure.com/en/persons/aaryashree-aaryashree" target="_blank" class="text-gray-500 hover:text-blue-500">University Profile</a>
-                    </div>
-                </div>
+        <!-- 3 Intelligent Tactile & Health -->
+        <article class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.657 0 3-1.79 3-4s-1.343-4-3-4-3 1.79-3 4 1.343 4 3 4zM19 21a7 7 0 10-14 0h14z"/></svg>
+            <div>
+              <h3 class="text-xl font-semibold">Intelligent Tactile & Health Sensors</h3>
+              <p class="mt-2 text-gray-600">
+                Flexible tactile arrays and wearable monitors coupled with machine learning for real-time
+                perception in healthcare, rehabilitation, and robotics.
+              </p>
             </div>
+          </div>
+        </article>
 
-            <div class="mt-12 max-w-4xl mx-auto">
-                <h3 class="text-2xl font-bold text-center mb-6">Experience & Education</h3>
-                <div class="grid md:grid-cols-2 gap-10">
-                    <div>
-                        <h4 class="text-xl font-semibold mb-3">Work Experience</h4>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <li><span class="font-semibold">Associate Professor,</span> Shibaura Institute of Technology, Tokyo (Apr. 2023-Present)</li>
-                            <li><span class="font-semibold">Assistant Professor,</span> Shibaura Institute of Technology, Tokyo (Apr. 2021-Mar. 2023)</li>
-                            <li><span class="font-semibold">Postdoc Fellow,</span> Shibaura Institute of Technology, Tokyo (Oct. 2019-Mar. 2021)</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-semibold mb-3">Education</h4>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <li><span class="font-semibold">Ph.D. (Electrical Engineering),</span> IIT Indore, India (2019)</li>
-                            <li><span class="font-semibold">Bachelor of Engineering (Electronics and Instrumentation),</span> Annamalai University, India (2012)</li>
-                        </ul>
-                    </div>
-                </div>
+        <!-- 4 Sustainable Electronics -->
+        <article class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+          <div class="flex items-start gap-3">
+            <svg class="w-6 h-6 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.79-3 4 0 3 3 6 3 6s3-3 3-6c0-2.21-1.343-4-3-4z"/></svg>
+            <div>
+              <h3 class="text-xl font-semibold">Sustainable Materials & Processes</h3>
+              <p class="mt-2 text-gray-600">
+                Eco-friendly inks, recyclable substrates, and low-energy fabrication to make advanced
+                electronics scalable, affordable, and sustainable.
+              </p>
             </div>
+          </div>
+        </article>
+      </div>
 
-        </section>
-        
-        <!-- Teaching Section -->
-        <section id="teaching" class="py-20">
-            <h2 class="section-header text-3xl font-bold text-center">Teaching & Mentoring</h2>
-            <p class="text-center mt-4 max-w-3xl mx-auto text-gray-600">
-                Dr. Aaryashree is dedicated to making science accessible and engaging for the next generation of researchers and engineers. Her teaching philosophy emphasizes hands-on experiments, interactive activities, and a challenging yet supportive learning environment.
+      <!-- Past Projects -->
+      <details class="mt-10 bg-white rounded-xl border border-gray-200 shadow-sm">
+        <summary class="cursor-pointer select-none px-6 py-4 font-semibold text-gray-800 flex items-center justify-between">
+          Past Projects (Biosensors & Food Safety)
+          <span class="text-sm font-normal text-gray-500">Click to expand</span>
+        </summary>
+        <div class="px-6 pb-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="p-5 rounded-lg border border-gray-100 bg-gray-50">
+            <h4 class="font-semibold">Antibacterial Drug Sensors</h4>
+            <p class="mt-2 text-sm text-gray-600">
+              Electrochemical monitoring of antibacterial drugs to inform stewardship and resistance studies.
             </p>
-            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Core Physics Courses</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Electromagnetism</li>
-                        <li>Thermodynamics</li>
-                        <li>Optics</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Specialized Courses</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Biophotonics</li>
-                        <li>Biophysics</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                    <h3 class="text-xl font-semibold mb-3">Omnibus Courses</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Introduction to Advance Science and Technology</li>
-                        <li>Diversity and Cultures of Other Countries</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Publications Section -->
-        <section id="publications" class="py-20">
-            <h2 class="section-header text-3xl font-bold text-center">Publications</h2>
-            <div class="mt-12 space-y-4 max-w-4xl mx-auto">
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                    <p class="text-gray-600">
-                       <span class="font-bold">Aaryashree A</span>, et al. (2023). Title of a key publication from your CV. <span class="italic">Journal of Important Science.</span> 12(3), 45-56.
-                    </p>
-                    <div class="mt-2 space-x-4">
-                        <a href="#" class="text-blue-500 hover:underline">DOI Link</a>
-                        <a href="#" class="text-blue-500 hover:underline">PDF</a>
-                        <a href="#" class="text-blue-500 hover:underline">PubMed</a>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                    <p class="text-gray-600">
-                       Author A, <span class="font-bold">Aaryashree A</span>. (2024). Title of another great paper from your previous work. <span class="italic">Nature Communications.</span> 1(1), 1-10.
-                    </p>
-                    <div class="mt-2 space-x-4">
-                        <a href="#" class="text-blue-500 hover:underline">DOI Link</a>
-                        <a href="#" class="text-blue-500 hover:underline">PDF</a>
-                        <a href="#" class="text-blue-500 hover:underline">PubMed</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- News Section -->
-        <section id="news" class="py-20">
-            <h2 class="section-header text-3xl font-bold text-center">Lab News & Events</h2>
-            <div class="mt-12 space-y-6 max-w-4xl mx-auto">
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start space-x-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 09, 2025</div>
-                    <div class="text-gray-600">
-                        Dr. Aaryashree will be presenting our latest work on neuromorphic devices at the <span class="font-semibold">International Conference on Advanced Materials</span> in Tokyo.
-                    </div>
-                </div>
-                
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start space-x-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Aug 22, 2025</div>
-                    <div class="text-gray-600">
-                        Our paper, "AI-Integrated Flexible Electronics for Health Monitoring," has been accepted for publication in <span class="italic">Advanced Functional Materials</span>. Congratulations to the team!
-                    </div>
-                </div>
-
-                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start space-x-4">
-                    <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 01, 2025</div>
-                    <div class="text-gray-600">
-                        We are excited to welcome our first student to the lab! A warm welcome to [Student's Name].
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Join Us Section -->
-        <section id="join" class="py-20">
-            <div class="max-w-4xl mx-auto bg-blue-50 border-2 border-blue-200 p-8 rounded-lg text-center">
-                <h2 class="text-3xl font-bold text-gray-900">Collaborate With Us</h2>
-                <p class="mt-4 text-gray-700">
-                    We are dedicated to exploring new frontiers and making a real difference in the field of Biosensors. We are always eager to collaborate with fellow researchers, start-ups, and organizations who share our commitment to advancing knowledge and making a positive impact.
-                </p>
-                <div class="mt-6 text-left space-y-4">
-                    <p><strong>Undergraduate Students:</strong> We are seeking passionate undergraduate students from Shibaura Institute of Technology for our 4-year research program. Ideal candidates are curious, detail-oriented, and eager to learn. Please email Dr. Aaryashree with your CV and a brief statement of your research interests.</p>
-                    <p><strong>Prospective Collaborators:</strong> We offer a wide range of opportunities, from joint research projects to knowledge-sharing initiatives. Please reach out to discuss how we can work together.</p>
-                </div>
-                <a href="mailto:aarya@shibaura-it.ac.jp" class="mt-8 inline-block bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-600 transition-all">Contact Us</a>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="py-20 text-center">
-             <h2 class="section-header text-3xl font-bold">Get In Touch</h2>
-             <div class="mt-8 text-gray-600">
-                <p>Advanced Electronics and Sensor Devices Lab</p>
-                <p>Shibaura Institute of Technology, Toyosu Campus</p>
-                <p>3-7-5 Toyosu, Koto-ku</p>
-                <p>Tokyo 135-8548, Japan</p>
-                <p class="mt-4">
-                    Email: <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-500 hover:underline">aarya@shibaura-it.ac.jp</a> 
-                    or <a href="mailto:aarya@sic.shibaura-it.ac.jp" class="text-blue-500 hover:underline">aarya@sic.shibaura-it.ac.jp</a>
-                </p>
-             </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; <span id="year"></span> The Advanced Electronics and Sensor Devices Lab | Shibaura Institute of Technology.</p>
+          </div>
+          <div class="p-5 rounded-lg border border-gray-100 bg-gray-50">
+            <h4 class="font-semibold">Anti-epileptic Drug Sensors</h4>
+            <p class="mt-2 text-sm text-gray-600">
+              Therapeutic drug monitoring for optimized dosing and better clinical outcomes.
+            </p>
+          </div>
+          <div class="p-5 rounded-lg border border-gray-100 bg-gray-50">
+            <h4 class="font-semibold">Food Toxin Sensors</h4>
+            <p class="mt-2 text-sm text-gray-600">
+              Rapid detection of histamine/inosine to prevent foodborne illness and protect public health.
+            </p>
+          </div>
         </div>
-    </footer>
+      </details>
+    </section>
 
-    <script>
-        // Set current year in footer
-        document.getElementById('year').textContent = new Date().getFullYear();
+    <!-- Team -->
+    <section id="team" class="py-20">
+      <h2 class="section-header text-3xl font-bold text-center">Meet the Principal Investigator</h2>
+      <div class="mt-12 bg-white p-8 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-8 border border-gray-200">
+        <img src="https://shibaura.elsevierpure.com/ws/api/きほんじょうほう/persons/a2253457-3f33-4c60-8f9f-68246a36154c/photo" alt="Aaryashree Aaryashree" class="w-40 h-40 rounded-full object-cover ring-4 ring-blue-200">
+        <div>
+          <h3 class="text-2xl font-bold">Aaryashree (Aarya)</h3>
+          <p class="text-blue-600 font-semibold">Associate Professor</p>
+          <p class="mt-4 text-gray-600">
+            Research at the intersection of nanomaterials, printed electronics, and intelligent sensing. We
+            build flexible devices, neuromorphic components, and AI-integrated sensor systems for real-world impact.
+          </p>
+          <div class="mt-4 flex gap-4 text-sm">
+            <a href="mailto:aarya@shibaura-it.ac.jp" class="text-gray-600 hover:text-blue-600">Email</a>
+            <a href="https://scholar.google.com/citations?user=9o23iIcAAAAJ" target="_blank" class="text-gray-600 hover:text-blue-600">Google Scholar</a>
+            <a href="https://shibaura.elsevierpure.com/en/persons/aaryashree-aaryashree" target="_blank" class="text-gray-600 hover:text-blue-600">University Profile</a>
+          </div>
+        </div>
+      </div>
 
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+      <div class="mt-12 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-center mb-6">Experience & Education</h3>
+        <div class="grid md:grid-cols-2 gap-10">
+          <div>
+            <h4 class="text-xl font-semibold mb-3">Work Experience</h4>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+              <li><span class="font-semibold">Associate Professor,</span> Shibaura Institute of Technology, Tokyo (Apr 2023–Present)</li>
+              <li><span class="font-semibold">Assistant Professor,</span> Shibaura Institute of Technology, Tokyo (Apr 2021–Mar 2023)</li>
+              <li><span class="font-semibold">Postdoctoral Fellow,</span> Shibaura Institute of Technology, Tokyo (Oct 2019–Mar 2021)</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl font-semibold mb-3">Education</h4>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+              <li><span class="font-semibold">Ph.D. (Electrical Engineering),</span> IIT Indore, India (2019)</li>
+              <li><span class="font-semibold">B.E. (Electronics & Instrumentation),</span> Annamalai University, India (2012)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        // Close mobile menu when a link is clicked
-        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
-        mobileMenuLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-            });
-        });
-    </script>
+    <!-- Teaching -->
+    <section id="teaching" class="py-20">
+      <h2 class="section-header text-3xl font-bold text-center">Teaching & Mentoring</h2>
+      <p class="text-center mt-4 max-w-3xl mx-auto text-gray-600">
+        Hands-on, concept-driven, and inclusive. Courses blend fundamentals with applications in sensors,
+        optics, and modern electronics.
+      </p>
+      <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h3 class="text-xl font-semibold mb-3">Core Physics Courses</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Electromagnetism</li><li>Thermodynamics</li><li>Optics</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h3 class="text-xl font-semibold mb-3">Specialized Courses</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Biophotonics</li><li>Biophysics</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h3 class="text-xl font-semibold mb-3">Omnibus Courses</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Introduction to Advanced Science & Technology</li>
+            <li>Diversity and Cultures of Other Countries</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-20">
+      <h2 class="section-header text-3xl font-bold text-center">Publications</h2>
+      <div class="mt-12 space-y-4 max-w-4xl mx-auto">
+        <!-- Replace with real items -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <p class="text-gray-700">
+            <span class="font-bold">Aaryashree A</span>, et&nbsp;al. (2024). Title of a recent publication. 
+            <span class="italic">Journal Name</span> 00(0), 1–10.
+          </p>
+          <div class="mt-2 space-x-4 text-sm">
+            <a href="#" class="text-blue-600 hover:underline">DOI</a>
+            <a href="#" class="text-blue-600 hover:underline">PDF</a>
+            <a href="#" class="text-blue-600 hover:underline">PubMed</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="py-20">
+      <h2 class="section-header text-3xl font-bold text-center">Lab News & Events</h2>
+      <div class="mt-12 space-y-6 max-w-4xl mx-auto">
+        <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
+          <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 09, 2025</div>
+          <div class="text-gray-700">Talk on neuromorphic devices at the <span class="font-semibold">International Conference on Advanced Materials</span>, Tokyo.</div>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
+          <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Aug 22, 2025</div>
+          <div class="text-gray-700">Paper accepted: “AI-Integrated Flexible Electronics for Health Monitoring,” <span class="italic">Advanced Functional Materials</span>.</div>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
+          <div class="font-semibold text-gray-700 w-28 flex-shrink-0">Sep 01, 2025</div>
+          <div class="text-gray-700">Welcoming our first undergraduate researcher to the lab.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join -->
+    <section id="join" class="py-20">
+      <div class="max-w-4xl mx-auto bg-blue-50 border-2 border-blue-200 p-8 rounded-xl text-center">
+        <h2 class="text-3xl font-bold text-gray-900">Collaborate With Us</h2>
+        <p class="mt-4 text-gray-700">
+          We partner across academia and industry on printed electronics, intelligent sensing, and sustainable
+          device manufacturing. If you’re building healthcare, robotics, or environmental technologies, let’s talk.
+        </p>
+        <div class="mt-6 text-left space-y-4">
+          <p><strong>Undergraduate Students:</strong> Join our 4-year research track at SIT. Email your CV and a short statement of interests.</p>
+          <p><strong>Prospective Collaborators:</strong> We welcome joint projects, co-advised students, and shared facilities.</p>
+        </div>
+        <a href="mailto:aarya@shibaura-it.ac.jp" class="mt-8 inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition">
+          Contact Us
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 text-center">
+      <h2 class="section-header text-3xl font-bold">Get In Touch</h2>
+      <div class="mt-8 text-gray-700">
+        <p>Advanced Electronics & Sensor Devices Lab</p>
+        <p>Shibaura Institute of Technology, Toyosu Campus</p>
+        <p>3-7-5 Toyosu, Koto-ku</p>
+        <p>Tokyo 135-8548, Japan</p>
+        <p class="mt-4">Email:
+          <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline">aarya@shibaura-it.ac.jp</a>
+          &nbsp;|&nbsp;
+          <a href="mailto:aarya@sic.shibaura-it.ac.jp" class="text-blue-600 hover:underline">aarya@sic.shibaura-it.ac.jp</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; <span id="year"></span> Advanced Electronics & Sensor Devices Lab, Shibaura Institute of Technology.</p>
+    </div>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // mobile menu
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuButton.addEventListener('click',()=>mobileMenu.classList.toggle('hidden'));
+    mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.add('hidden')));
+  </script>
 </body>
 </html>
