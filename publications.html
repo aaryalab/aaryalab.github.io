@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Publications | Advanced Electronics & Sensor Devices Lab</title>
+    <title>Publications | AESD Lab | Shibaura Institute of Technology</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -16,45 +16,87 @@
     <!-- Header -->
     <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="font-semibold text-gray-900">AESD Lab</a>
-            <div class="flex items-center gap-6 text-sm text-gray-500">
+            <a href="index.html" class="font-semibold text-gray-900 text-xl">AESD Lab</a>
+            <div class="hidden md:flex items-center gap-6 text-sm text-gray-500">
                 <a href="index.html" class="hover:text-gray-900">Home</a>
                 <a href="research.html" class="hover:text-gray-900">Research</a>
                 <a href="team.html" class="hover:text-gray-900">Team</a>
                 <a href="teaching.html" class="hover:text-gray-900">Teaching</a>
                 <a href="publications.html" class="nav-link-active">Publications</a>
             </div>
+            <button class="md:hidden text-gray-500 hover:text-gray-900">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
         </nav>
     </header>
 
     <main class="container mx-auto px-6 py-20">
-        <div class="max-w-4xl mx-auto">
-            <section>
-                <h1 class="text-4xl font-bold text-gray-900">Publications</h1>
-                <p class="mt-3 text-lg text-gray-600">
-                    A comprehensive list of our lab's scholarly articles and peer-reviewed journals.
+        <div class="max-w-5xl mx-auto">
+            <!-- Hero Section -->
+            <section class="text-center mb-20">
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                    Publications
+                </h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    21 peer-reviewed publications spanning nanomaterials, sensors, and electronics. 10 as first author, covering high-impact journals and conferences.
                 </p>
             </section>
-        
-            <section class="mt-12">
-                <div class="flex items-center mb-6">
-                    <label for="year-filter" class="mr-3 text-sm font-medium text-gray-700">Filter by year:</label>
-                    <select id="year-filter" class="block w-40 pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"></select>
+
+            <!-- Filter & Sort -->
+            <section class="mb-12">
+                <div class="flex flex-col sm:flex-row gap-4 items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <label for="year-filter" class="text-sm font-semibold text-gray-700">Filter by year:</label>
+                        <select id="year-filter" class="px-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <option value="all">All Years</option>
+                        </select>
+                    </div>
+                    <div class="text-sm text-gray-600">
+                        <span id="pub-count">0</span> publications
+                    </div>
                 </div>
-                <div id="publications-container" class="space-y-4">
-                    <p class="text-gray-500">Loading publications...</p>
+            </section>
+
+            <!-- Publications Container -->
+            <section id="publications-container" class="space-y-6">
+                <div class="col-span-full text-center py-16 text-gray-400">
+                    <svg class="w-16 h-16 mx-auto mb-4 opacity-25" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                    <p class="text-lg">Loading publications...</p>
+                </div>
+            </section>
+
+            <!-- Legend -->
+            <section class="mt-20 pt-12 border-t border-gray-200">
+                <h2 class="text-lg font-bold text-gray-900 mb-6">Publication Categories</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-semibold text-gray-900 mb-3">Peer-Reviewed Journals (21)</h3>
+                        <p class="text-gray-600 text-sm">Full papers in high-impact journals including impact factors up to 8.897 (Nano Research), 7.393 (Journal of Materials Chemistry C), and 5.1 (Microplastics).</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-900 mb-3">First-Author Publications (10)</h3>
+                        <p class="text-gray-600 text-sm">Leading research contributions across sensors, nanomaterials, and flexible electronics—establishing independence and expertise.</p>
+                    </div>
                 </div>
             </section>
         </div>
     </main>
 
-    <footer class="mt-20 border-t border-gray-200 bg-white">
-        <div class="container mx-auto px-6 py-10">
-            <div class="max-w-2xl mx-auto text-gray-600 text-sm">
-                <h2 class="font-semibold text-gray-800">Contact</h2>
-                <p class="mt-2">Advanced Electronics & Sensor Devices Lab</p>
-                <p>Shibaura Institute of Technology, Tokyo</p>
-                <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline">aarya@shibaura-it.ac.jp</a>
+    <footer class="mt-24 border-t border-gray-200 bg-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="max-w-2xl mx-auto text-center text-gray-600 text-sm">
+                <h2 class="font-semibold text-gray-800 text-lg mb-4">Advanced Electronics & Sensor Devices Lab</h2>
+                <p class="mb-2">Shibaura Institute of Technology, Tokyo</p>
+                <p class="mb-4">College of Systems Engineering and Science</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
+                    <a href="mailto:aarya@shibaura-it.ac.jp" class="text-blue-600 hover:underline font-medium">aarya@shibaura-it.ac.jp</a>
+                    <a href="https://scholar.google.com/citations?user=YOUR_ID" class="text-blue-600 hover:underline" target="_blank">Google Scholar</a>
+                </div>
+                <p>&copy; 2026 AESD Lab. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -62,36 +104,62 @@
     <script>
         const container = document.getElementById('publications-container');
         const yearFilter = document.getElementById('year-filter');
+        const pubCount = document.getElementById('pub-count');
         let allPublications = [];
+
+        function createPublicationCard(pub) {
+            const el = document.createElement('div');
+            el.className = 'bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow';
+            
+            let authorsHtml = pub.authors || '';
+            if (pub.isFirstAuthor) {
+                authorsHtml = authorsHtml.replace(pub.authors.split(',')[0], `<span class="font-bold">${pub.authors.split(',')[0]}</span>`);
+            }
+            
+            let linksHtml = '';
+            if (pub.doi) {
+                linksHtml += `<a href="${pub.doi}" target="_blank" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 font-semibold text-sm mt-4"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>DOI</a>`;
+            }
+            if (pub.pdf) {
+                linksHtml += `<a href="${pub.pdf}" target="_blank" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 font-semibold text-sm mt-4 ml-4"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>PDF</a>`;
+            }
+            
+            el.innerHTML = `
+                <div class="mb-4">
+                    <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold mr-2">${pub.year}</span>
+                    ${pub.isFirstAuthor ? '<span class="inline-block px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-semibold">First Author</span>' : ''}
+                </div>
+                <p class="text-gray-800 text-base mb-3">
+                    <span class="font-semibold">${authorsHtml}</span> (${pub.year}). 
+                    <span class="font-bold text-gray-900">"${pub.title}"</span>
+                    <em class="text-gray-600">${pub.venue}</em>
+                    ${pub.volume ? `, vol. ${pub.volume}` : ''}
+                    ${pub.pages ? `, pp. ${pub.pages}` : ''}
+                </p>
+                ${pub.impactFactor ? `<p class="text-sm text-gray-500 mb-3">Impact Factor: ${pub.impactFactor}</p>` : ''}
+                ${linksHtml}
+            `;
+            return el;
+        }
 
         function renderPublications(pubs) {
             container.innerHTML = '';
             if (pubs.length === 0) {
-                container.innerHTML = '<p class="text-gray-500">No publications found for the selected year.</p>';
+                container.innerHTML = '<div class="col-span-full text-center py-12 text-gray-500"><p class="text-lg">No publications found for the selected year.</p></div>';
+                pubCount.textContent = '0';
                 return;
             }
-            pubs.forEach(pub => {
-                const el = document.createElement('div');
-                el.className = 'bg-white p-5 rounded-lg border border-gray-200 shadow-sm';
-                el.innerHTML = `
-                    <p class="text-gray-800 text-sm">
-                        <span class="font-semibold">${pub.authors || ''}</span> (${pub.year || ''}).
-                        <span class="font-bold text-gray-900">${pub.title || ''}</span>
-                        <em class="text-gray-600">${pub.venue || ''}.</em>
-                    </p>
-                    <div class="mt-2 space-x-4 text-xs">
-                        ${pub.links?.doi ? `<a href="${pub.links.doi}" target="_blank" class="text-blue-600 font-medium hover:underline">DOI</a>` : ''}
-                        ${pub.links?.pdf ? `<a href="${pub.links.pdf}" target="_blank" class="text-blue-600 font-medium hover:underline">PDF</a>` : ''}
-                    </div>
-                `;
-                container.appendChild(el);
-            });
+            pubs.forEach(pub => container.appendChild(createPublicationCard(pub)));
+            pubCount.textContent = pubs.length;
         }
 
+        // Load publications from JSON
         fetch('data/publications.json')
             .then(r => r.ok ? r.json() : [])
             .then(pubs => {
                 allPublications = pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
+                
+                // Build year filter
                 const years = [...new Set(allPublications.map(p => p.year))].sort((a, b) => b - a);
                 yearFilter.innerHTML = '<option value="all">All Years</option>';
                 years.forEach(year => {
@@ -100,15 +168,21 @@
                     option.textContent = year;
                     yearFilter.appendChild(option);
                 });
+                
                 renderPublications(allPublications);
             })
-            .catch(error => {
-                container.innerHTML = '<p class="text-red-500">Could not load publications data.</p>';
+            .catch(() => {
+                container.innerHTML = '<div class="col-span-full text-center py-12 text-gray-500"><p class="text-lg">Unable to load publications. Please check data/publications.json</p></div>';
             });
 
-        yearFilter.addEventListener('change', (event) => {
-            const selectedYear = event.target.value;
-            renderPublications(selectedYear === 'all' ? allPublications : allPublications.filter(p => p.year.toString() === selectedYear));
+        // Year filter handler
+        yearFilter.addEventListener('change', (e) => {
+            const selectedYear = e.target.value;
+            if (selectedYear === 'all') {
+                renderPublications(allPublications);
+            } else {
+                renderPublications(allPublications.filter(p => p.year.toString() === selectedYear));
+            }
         });
     </script>
 </body>
