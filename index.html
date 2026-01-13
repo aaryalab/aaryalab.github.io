@@ -18,6 +18,17 @@
             color: #1e40af; 
             font-weight: 600; 
         }
+        .badge-pill {
+            display: inline-block;
+            padding: 6px 12px;
+            background: rgba(30, 64, 175, 0.1);
+            color: #1e40af;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-gray-800">
@@ -45,94 +56,202 @@
     </header>
 
     <main class="container mx-auto px-6 py-20">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-6xl mx-auto">
 
-            <!-- Hero Section -->
-            <section class="grid md:grid-cols-2 gap-10 items-center mb-20">
-                <div>
-                    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-                        Advanced Electronics & Sensor Devices
-                    </h1>
-                    <h2 class="text-xl font-semibold text-gray-500 mt-4 mb-8">
-                        Engineering intelligent materials into next-generation devices.
-                    </h2>
-                </div>
-                <div class="md:order-2">
-                    <img src="images/Lab_logo_trial.png" 
-                         alt="AESD Lab" 
-                         class="rounded-lg shadow-xl mx-auto max-w-md h-auto">
+            <!-- Hero Section with Logo & Tagline -->
+            <section class="mb-32">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <!-- Logo & Text -->
+                    <div>
+                        <img src="images/aesd-logo.png" 
+                             alt="AESD Lab - Advanced Electronics & Sensor Devices" 
+                             class="h-32 mb-8">
+                        
+                        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                            Advanced Electronics & Sensor Devices Lab
+                        </h1>
+                        
+                        <p class="text-2xl font-semibold text-gray-600 mb-8">
+                            Printed nanomaterials → intelligent devices
+                        </p>
+                        
+                        <p class="text-lg text-gray-700 mb-8 leading-relaxed max-w-xl">
+                            We engineer next-generation flexible electronics through printed nanomaterials, neuromorphic architectures, and machine learning integration. From sensors to systems, advancing electronics for Society 5.0.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-12">
+                            <span class="badge-pill">Printed Electronics</span>
+                            <span class="badge-pill">Flexible Sensors</span>
+                            <span class="badge-pill">Neuromorphic Devices</span>
+                            <span class="badge-pill">Machine Learning</span>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="research.html" class="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+                                Explore Research →
+                            </a>
+                            <a href="publications.html" class="inline-flex items-center justify-center px-8 py-3 bg-white border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+                                15+ Publications
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Credential Cards -->
+                    <div class="space-y-6">
+                        <div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl border border-blue-200">
+                            <h3 class="text-sm font-semibold text-blue-900 mb-4 uppercase tracking-wider">Established Track Record</h3>
+                            <div class="space-y-3">
+                                <div class="flex items-baseline">
+                                    <span class="text-4xl font-bold text-blue-600">15+</span>
+                                    <span class="text-gray-700 ml-3">Peer-reviewed publications</span>
+                                </div>
+                                <div class="flex items-baseline">
+                                    <span class="text-4xl font-bold text-blue-600">50+</span>
+                                    <span class="text-gray-700 ml-3">Students mentored</span>
+                                </div>
+                                <div class="flex items-baseline">
+                                    <span class="text-3xl font-bold text-blue-600">7</span>
+                                    <span class="text-gray-700 ml-3">Years research experience</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-shadow">
+                            <h3 class="text-sm font-semibold text-gray-900 mb-4 uppercase tracking-wider">Recent Recognition</h3>
+                            <ul class="space-y-3 text-sm text-gray-700">
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <span>SCEJ Annual Meeting Award (2023)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <span>LOPEC 2025 Presenter</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <svg class="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <span>Kakenhi-funded researcher</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <!-- Research Areas -->
-            <section class="mb-20">
-                <h2 class="text-2xl font-bold text-gray-900 mb-8">Research Focus</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="group">
-                        <div class="flex items-center mb-3">
-                            <svg class="w-6 h-6 mr-3 text-blue-500 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <!-- Research Clusters -->
+            <section class="mb-32">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Four Research Pillars</h2>
+                <p class="text-xl text-gray-600 mb-16 max-w-2xl">From nanomaterials to intelligent systems—advancing electronics across four interconnected domains.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="group bg-white/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M12 5V3m0 18v-2"></path>
                             </svg>
-                            <h3 class="font-semibold text-lg text-gray-900">Nanoscale Electronic Materials</h3>
                         </div>
-                        <p class="text-gray-600">Advanced nanomaterials for next-generation electronics.</p>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600">Nanoscale Electronic Materials</h3>
+                        <p class="text-gray-600 mb-4">Printed inks, 2D materials, nanoscale fabrication—enabling scalable electronics.</p>
+                        <p class="text-sm text-gray-500 italic">MXene, graphene, CNT inks for flexible devices</p>
                     </div>
-                    <div class="group">
-                        <div class="flex items-center mb-3">
-                            <svg class="w-6 h-6 mr-3 text-blue-500 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                    <div class="group bg-white/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 10l2 1m-2-1l2-1m-2 1v2.5M7 16l2-1m-2 1l2 1m-2-1v-2.5"></path>
                             </svg>
-                            <h3 class="font-semibold text-lg text-gray-900">Intelligent Sensor Architectures</h3>
                         </div>
-                        <p class="text-gray-600">Smart sensing systems with machine intelligence.</p>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600">Intelligent Sensor Architectures</h3>
+                        <p class="text-gray-600 mb-4">Multi-modal sensing + machine learning—real-time detection and analytics.</p>
+                        <p class="text-sm text-gray-500 italic">Electrochemical, tactile, biosensors with edge AI</p>
                     </div>
-                    <div class="group">
-                        <div class="flex items-center mb-3">
-                            <svg class="w-6 h-6 mr-3 text-blue-500 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                    <div class="group bg-white/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
-                            <h3 class="font-semibold text-lg text-gray-900">Neuromorphic Computing Systems</h3>
                         </div>
-                        <p class="text-gray-600">Brain-inspired devices and computing architectures.</p>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600">Neuromorphic Computing Systems</h3>
+                        <p class="text-gray-600 mb-4">Brain-inspired devices—energy-efficient, adaptive intelligence.</p>
+                        <p class="text-sm text-gray-500 italic">RRAM, synaptic plasticity, spiking networks</p>
                     </div>
-                    <div class="group">
-                        <div class="flex items-center mb-3">
-                            <svg class="w-6 h-6 mr-3 text-blue-500 group-hover:text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+
+                    <div class="group bg-white/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200">
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
-                            <h3 class="font-semibold text-lg text-gray-900">Flexible Device Platforms</h3>
                         </div>
-                        <p class="text-gray-600">Wearable and conformal electronic systems.</p>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600">Flexible Device Platforms</h3>
+                        <p class="text-gray-600 mb-4">Wearable & conformal electronics—form-fitting intelligence.</p>
+                        <p class="text-sm text-gray-500 italic">Large-area printing, stretchable arrays, bio-integration</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Recent Highlights -->
-            <section class="mb-20">
-                <h2 class="text-2xl font-bold text-gray-900 mb-8">Recent Highlights</h2>
-                <ul class="space-y-4 max-w-2xl">
-                    <li class="flex items-start">
-                        <span class="font-semibold text-blue-600 text-sm w-20 mt-1 flex-shrink-0">2026</span>
-                        <span>Machine learning-enhanced sensor systems (under review)</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="font-semibold text-blue-600 text-sm w-20 mt-1 flex-shrink-0">2025</span>
-                        <span>Nanomaterial device platform development</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="font-semibold text-blue-600 text-sm w-20 mt-1 flex-shrink-0">2024</span>
-                        <span>Invited seminar on advanced electronics</span>
-                    </li>
-                    <li class="flex items-start">
-                        <span class="font-semibold text-blue-600 text-sm w-20 mt-1 flex-shrink-0">2023</span>
-                        <span>Award for materials innovation</span>
-                    </li>
-                </ul>
+            <!-- 2026 Momentum -->
+            <section class="mb-32">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">2026 Momentum</h2>
+                <p class="text-xl text-gray-600 mb-12 max-w-2xl">Establishing independent research direction at Shibaura IT with expanding scope.</p>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white border-l-4 border-blue-600 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">2026</h3>
+                        <p class="text-gray-600 font-semibold mb-4">Current & Recent</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• ML-electrochemical food safety (submitted)</li>
+                            <li>• Flexible sensor integration</li>
+                            <li>• Student thesis projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-gray-400 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold text-gray-600 mb-2">2025</h3>
+                        <p class="text-gray-600 font-semibold mb-4">Recent Advances</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• Optics Continuum: Arsenic detection</li>
+                            <li>• LOPEC 2025 presentation</li>
+                            <li>• ZnO tactile sensor research</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white border-l-4 border-gray-400 p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold text-gray-600 mb-2">2023-2024</h3>
+                        <p class="text-gray-600 font-semibold mb-4">Foundation</p>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• SCEJ award (printed electronics)</li>
+                            <li>• Biosensor lectures (SVNIT)</li>
+                            <li>• Kakenhi funding secured</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lab Vision & Recruitment -->
+            <section class="bg-gradient-to-br from-blue-50 to-indigo-100 px-12 py-16 rounded-3xl border border-blue-200 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Lab in Growth Phase</h2>
+                <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+                    Established researcher + fresh start = ambitious science. We're recruiting motivated graduate students and collaborators for Fall 2026.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="team.html" class="inline-block px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+                        Join the Lab
+                    </a>
+                    <a href="mailto:aarya@shibaura-it.ac.jp" class="inline-block px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-colors">
+                        Get in Touch
+                    </a>
+                </div>
             </section>
         </div>
     </main>
 
-    <footer class="mt-20 border-t border-gray-200 bg-white">
+    <footer class="mt-24 border-t border-gray-200 bg-white">
         <div class="container mx-auto px-6 py-12">
             <div class="max-w-2xl mx-auto text-center text-gray-600 text-sm">
                 <h2 class="font-semibold text-gray-800 text-lg mb-4">Advanced Electronics & Sensor Devices Lab</h2>
