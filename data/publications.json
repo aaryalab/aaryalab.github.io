@@ -1,5 +1,17 @@
 [
   {
+  "year": 2026,
+  "title": "Integrating machine learning with electrochemical sensors for intelligent food safety monitoring",
+  "venue": "Artificial Intelligence Chemistry",
+  "authors": "Aaryashree, Arti Devi",
+  "volume": "4",
+  "issue": "1",
+  "pages": "100105",
+  "month": "June",
+  "links": {"doi": "https://doi.org/10.1016/j.aichem.2025.100105"},
+  "area": "Food Safety Sensors"
+},
+  {
     "year": 2025,
     "title": "The Individual and Combined Effects of Microplastics and Heavy Metals on Marine Organisms",
     "venue": "Microplastics",
