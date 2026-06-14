@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Teaching | AESD Lab | Shibaura Institute of Technology</title>
+    <meta name="description" content="Courses taught by Dr. Aaryashree at Shibaura Institute of Technology, College of Systems Engineering and Science / Innovative Global Program.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">
+                <span class="brand-mark"><img src="images/aesd-logo.png" alt="AESD Lab logo"></span>
+                <span class="brand-text">
+                    <span class="name">AESD Lab</span>
+                    <span class="tag">Advanced Electronics &amp; Sensor Devices</span>
+                </span>
+            </a>
+            <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="teaching.html" class="active">Teaching</a></li>
+                <li><a href="publications.html">Publications</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page header -->
+    <section class="hero" style="padding-bottom: 30px;">
+        <div class="container">
+            <p class="eyebrow">Teaching</p>
+            <h1 style="font-size: clamp(2.1rem, 4.4vw, 3rem);">Courses at Shibaura Institute of Technology</h1>
+            <p class="lede" style="margin-bottom: 0;">
+                Teaching spans physics, biophysics, and biomedical engineering for the College of Systems
+                Engineering and Science and the Innovative Global Program, alongside a course dedicated to
+                flexible and printed sensor devices that connects directly to the lab&rsquo;s research.
+            </p>
+        </div>
+    </section>
+
+    <!-- Current courses -->
+    <section class="section" style="padding-top: 24px;">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">This Year</p>
+                <h2>Current courses</h2>
+            </div>
+            <div id="currentCourses" class="entry-list"></div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="trace trace--navy" aria-hidden="true">
+            <svg viewBox="0 0 1200 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,14 H620 L636,4 L652,24 L668,14 H1200" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Past courses -->
+    <section class="section">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Teaching Record</p>
+                <h2>Previously taught</h2>
+            </div>
+            <div id="pastCourses" class="entry-list"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2>AESD Lab</h2>
+                    <p>Advanced Electronics &amp; Sensor Devices Lab<br>
+                       Shibaura Institute of Technology, Tokyo<br>
+                       College of Systems Engineering and Science / Innovative Global Program</p>
+                </div>
+                <div>
+                    <h3>Site</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:aarya@shibaura-it.ac.jp">aarya@shibaura-it.ac.jp</a></li>
+                        <li><a href="https://scholar.google.com/citations?user=MFKSQD4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 AESD Lab, Shibaura Institute of Technology.</span>
+                <span>All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    (async function () {
+        function el(tag, cls, html) {
+            var e = document.createElement(tag);
+            if (cls) e.className = cls;
+            if (html !== undefined) e.innerHTML = html;
+            return e;
+        }
+
+        function renderCourse(c, current) {
+            const item = el('div', 'course-item');
+            const periodHtml = c.period + (current ? '<span class="course-current-flag">Ongoing</span>' : '');
+            item.appendChild(el('div', 'course-period', periodHtml));
+            const body = el('div');
+            body.appendChild(el('div', 'course-title', c.course_title));
+            body.appendChild(el('div', 'course-inst', c.institution));
+            item.appendChild(body);
+            return item;
+        }
+
+        // Parse a period string's start date for sorting, e.g. "Apr, 2026 - Present"
+        function startKey(period) {
+            const m = period.match(/([A-Za-z]+),?\s*(\d{4})/);
+            if (!m) return '0000-00';
+            const months = {Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
+            const mo = months[m[1].slice(0,3)] || '00';
+            return m[2] + '-' + mo;
+        }
+
+        try {
+            const res = await fetch('data/courses.json');
+            const courses = await res.json();
+
+            const current = courses.filter(c => /present/i.test(c.period));
+            const past = courses.filter(c => !/present/i.test(c.period));
+
+            current.sort((a, b) => startKey(b.period).localeCompare(startKey(a.period)));
+            past.sort((a, b) => startKey(b.period).localeCompare(startKey(a.period)));
+
+            const currentList = document.getElementById('currentCourses');
+            if (current.length) {
+                current.forEach(c => currentList.appendChild(renderCourse(c, true)));
+            } else {
+                currentList.innerHTML = '<p class="pub-empty">No current courses listed.</p>';
+            }
+
+            const pastList = document.getElementById('pastCourses');
+            if (past.length) {
+                past.forEach(c => pastList.appendChild(renderCourse(c, false)));
+            } else {
+                pastList.innerHTML = '<p class="pub-empty">No past courses listed.</p>';
+            }
+        } catch (err) {
+            console.error('Failed to load courses.json', err);
+            document.getElementById('currentCourses').innerHTML = '<p class="pub-empty">Unable to load course list right now.</p>';
+            document.getElementById('pastCourses').innerHTML = '';
+        }
+    })();
+    </script>
+</body>
+</html>

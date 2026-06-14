@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Publications | AESD Lab | Shibaura Institute of Technology</title>
+    <meta name="description" content="Journal articles, conference presentations, book chapters, patents, and invited talks from the Advanced Electronics &amp; Sensor Devices Lab at Shibaura Institute of Technology.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">
+                <span class="brand-mark"><img src="images/aesd-logo.png" alt="AESD Lab logo"></span>
+                <span class="brand-text">
+                    <span class="name">AESD Lab</span>
+                    <span class="tag">Advanced Electronics &amp; Sensor Devices</span>
+                </span>
+            </a>
+            <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page header -->
+    <section class="hero" style="padding-bottom: 30px;">
+        <div class="container">
+            <p class="eyebrow">Publications</p>
+            <h1 style="font-size: clamp(2.1rem, 4.4vw, 3rem);">Papers, presentations &amp; patents</h1>
+            <p class="lede" style="margin-bottom: 24px;">
+                A complete record of journal articles, conference presentations, book chapters, patents, and
+                invited talks. For citation counts and an author-level view, see the
+                <a href="https://scholar.google.com/citations?user=MFKSQD4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.
+            </p>
+            <div class="entry-row" style="border-top: 1px solid var(--rule); padding-top: 22px;">
+                <a class="pub-jump" href="#journal-articles">Journal Articles</a>
+                <a class="pub-jump" href="#conference-presentations">Conference Presentations</a>
+                <a class="pub-jump" href="#book-chapters">Book Chapters</a>
+                <a class="pub-jump" href="#patents">Patents</a>
+                <a class="pub-jump" href="#invited-talks">Invited Talks &amp; Guest Lectures</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journal Articles -->
+    <section class="section" id="journal-articles" style="padding-top: 24px;">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Journal Articles</p>
+                <h2>Publications</h2>
+            </div>
+            <div id="journalList"></div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="trace" aria-hidden="true">
+            <svg viewBox="0 0 1200 28" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,14 H540 L556,4 L572,24 L588,14 H1200" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Conference Presentations -->
+    <section class="section" id="conference-presentations">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Conference Presentations</p>
+                <h2>Talks &amp; posters</h2>
+            </div>
+            <div id="conferenceList"></div>
+        </div>
+    </section>
+
+    <!-- Book Chapters -->
+    <section class="section section--alt" id="book-chapters">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Book Chapters</p>
+                <h2>Contributed chapters</h2>
+            </div>
+            <div id="bookChapterList" class="entry-list"></div>
+        </div>
+    </section>
+
+    <!-- Patents -->
+    <section class="section" id="patents">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Patents</p>
+                <h2>Granted patents</h2>
+            </div>
+            <div id="patentsList" class="entry-list"></div>
+        </div>
+    </section>
+
+    <!-- Invited talks -->
+    <section class="section section--alt" id="invited-talks">
+        <div class="container">
+            <div class="section-head">
+                <p class="eyebrow">Talks &amp; Outreach</p>
+                <h2>Invited talks &amp; guest lectures</h2>
+            </div>
+            <div id="invitedList" class="entry-list"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2>AESD Lab</h2>
+                    <p>Advanced Electronics &amp; Sensor Devices Lab<br>
+                       Shibaura Institute of Technology, Tokyo<br>
+                       College of Systems Engineering and Science / Innovative Global Program</p>
+                </div>
+                <div>
+                    <h3>Site</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:aarya@shibaura-it.ac.jp">aarya@shibaura-it.ac.jp</a></li>
+                        <li><a href="https://scholar.google.com/citations?user=MFKSQD4AAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 AESD Lab, Shibaura Institute of Technology.</span>
+                <span>All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    (async function () {
+        function el(tag, cls, html) {
+            var e = document.createElement(tag);
+            if (cls) e.className = cls;
+            if (html !== undefined) e.innerHTML = html;
+            return e;
+        }
+
+        const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+        function formatDateRange(start, end) {
+            if (!start) return '';
+            const s = new Date(start + 'T00:00:00');
+            const sStr = MONTHS[s.getMonth()] + ' ' + s.getDate();
+            if (!end || end === start) {
+                return sStr + ', ' + s.getFullYear();
+            }
+            const e = new Date(end + 'T00:00:00');
+            if (s.getMonth() === e.getMonth() && s.getFullYear() === e.getFullYear()) {
+                return MONTHS[s.getMonth()] + ' ' + s.getDate() + '\u2013' + e.getDate() + ', ' + s.getFullYear();
+            }
+            const eStr = MONTHS[e.getMonth()] + ' ' + e.getDate() + ', ' + e.getFullYear();
+            return sStr + ' \u2013 ' + eStr;
+        }
+
+        function groupByYear(items, getYear) {
+            const groups = {};
+            items.forEach(it => {
+                const y = String(getYear(it));
+                (groups[y] = groups[y] || []).push(it);
+            });
+            return Object.keys(groups).sort((a, b) => b - a).map(y => ({ year: y, items: groups[y] }));
+        }
+
+        // Journal Articles
+        try {
+            const res = await fetch('data/publications.json');
+            const pubs = await res.json();
+            const list = document.getElementById('journalList');
+            const groups = groupByYear(pubs, p => p.year);
+            groups.forEach(g => {
+                const groupEl = el('div', 'pub-year-group');
+                groupEl.appendChild(el('h3', 'pub-year', g.year));
+                g.items.forEach(p => {
+                    const item = el('div', 'pub-item');
+                    const titleHtml = p.links && p.links.doi
+                        ? '<a href="' + p.links.doi + '" target="_blank" rel="noopener noreferrer">' + p.title + '</a>'
+                        : p.title;
+                    item.appendChild(el('div', 'pub-title', titleHtml));
+                    item.appendChild(el('div', 'pub-meta', p.authors));
+                    let venueLine = '<span class="venue">' + p.venue + '</span>';
+                    if (p.volume) venueLine += ', ' + p.volume + (p.issue ? '(' + p.issue + ')' : '');
+                    if (p.pages) venueLine += ', ' + p.pages;
+                    venueLine += ' (' + (p.month ? p.month + ' ' : '') + p.year + ')';
+                    item.appendChild(el('div', 'pub-meta', venueLine));
+                    if (p.area) item.appendChild(el('span', 'pub-area', p.area));
+                    groupEl.appendChild(item);
+                });
+                list.appendChild(groupEl);
+            });
+        } catch (err) {
+            console.error('Failed to load publications.json', err);
+            document.getElementById('journalList').innerHTML = '<p class="pub-empty">Unable to load journal articles right now.</p>';
+        }
+
+        // Conference Presentations
+        try {
+            const res = await fetch('data/conferences.json');
+            const confs = await res.json();
+            const list = document.getElementById('conferenceList');
+            const groups = groupByYear(confs, c => c.year);
+            groups.forEach(g => {
+                const groupEl = el('div', 'pub-year-group');
+                groupEl.appendChild(el('h3', 'pub-year', g.year));
+                // newest first within a year, by start_date
+                g.items.sort((a, b) => (b.start_date || '').localeCompare(a.start_date || ''));
+                g.items.forEach(c => {
+                    const item = el('div', 'pub-item');
+                    item.appendChild(el('div', 'pub-title', c.title));
+                    const authors = Array.isArray(c.authors) ? c.authors.join(', ') : c.authors;
+                    item.appendChild(el('div', 'pub-meta', authors));
+                    let venueLine = '<span class="venue">' + c.conference_name + '</span>';
+                    if (c.location) venueLine += ', ' + c.location;
+                    const dateStr = formatDateRange(c.start_date, c.end_date);
+                    if (dateStr) venueLine += ' \u2014 ' + dateStr;
+                    item.appendChild(el('div', 'pub-meta', venueLine));
+                    groupEl.appendChild(item);
+                });
+                list.appendChild(groupEl);
+            });
+        } catch (err) {
+            console.error('Failed to load conferences.json', err);
+            document.getElementById('conferenceList').innerHTML = '<p class="pub-empty">Unable to load conference presentations right now.</p>';
+        }
+
+        // Book Chapters
+        try {
+            const res = await fetch('data/book_chapters.json');
+            const chapters = await res.json();
+            const list = document.getElementById('bookChapterList');
+            chapters.sort((a, b) => b.year - a.year).forEach(c => {
+                const entry = el('div', 'entry');
+                entry.appendChild(el('div', 'entry-title', c.title));
+                const meta = el('div', 'entry-meta');
+                meta.appendChild(el('div', null, c.authors));
+                meta.appendChild(el('div', null, 'In: <em>' + c.host_publication + '</em>, ' + c.publisher + ', pp. ' + c.pages + ' (' + c.year + ')'));
+                entry.appendChild(meta);
+                list.appendChild(entry);
+            });
+        } catch (err) {
+            console.error('Failed to load book_chapters.json', err);
+            document.getElementById('bookChapterList').innerHTML = '<p class="pub-empty">Unable to load book chapters right now.</p>';
+        }
+
+        // Patents
+        try {
+            const res = await fetch('data/patents.json');
+            const patents = await res.json();
+            const list = document.getElementById('patentsList');
+            patents.forEach(p => {
+                const entry = el('div', 'entry');
+                entry.appendChild(el('div', 'entry-title', p.title));
+                const meta = el('div', 'entry-meta');
+                meta.appendChild(el('div', null, p.inventors));
+                meta.appendChild(el('div', null, 'Patent no. ' + p.number + ' \u2014 ' + p.status + (p.granted ? ' (' + p.granted + ')' : '')));
+                entry.appendChild(meta);
+                list.appendChild(entry);
+            });
+        } catch (err) {
+            console.error('Failed to load patents.json', err);
+            document.getElementById('patentsList').innerHTML = '<p class="pub-empty">Unable to load patents right now.</p>';
+        }
+
+        // Invited talks & guest lectures
+        try {
+            const res = await fetch('data/invited_lectures.json');
+            const invited = await res.json();
+            const list = document.getElementById('invitedList');
+
+            invited.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+            invited.forEach(t => {
+                const entry = el('div', 'entry');
+                const titleHtml = t.link
+                    ? '<a href="' + t.link + '" target="_blank" rel="noopener noreferrer">' + t.title + '</a>'
+                    : t.title;
+                entry.appendChild(el('div', 'entry-title', titleHtml));
+                const meta = el('div', 'entry-meta');
+                let line = t.event;
+                if (t.location) line += ', ' + t.location;
+                if (t.date) {
+                    const d = new Date(t.date + 'T00:00:00');
+                    line += ' \u2014 ' + MONTHS[d.getMonth()] + ' ' + d.getFullYear();
+                }
+                if (t.type) line += ' (' + t.type + ')';
+                meta.appendChild(el('div', null, line));
+                entry.appendChild(meta);
+                list.appendChild(entry);
+            });
+        } catch (err) {
+            console.error('Failed to load invited talks', err);
+            document.getElementById('invitedList').innerHTML = '<p class="pub-empty">Unable to load invited talks right now.</p>';
+        }
+    })();
+    </script>
+</body>
+</html>

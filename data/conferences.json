@@ -1,0 +1,826 @@
+[
+  {
+    "title": "Long-Term Electrical and Mechanical Degradation of Screen-Printed Carbon Interconnects under Lipophilic Exposure",
+    "authors": [
+      "Aaryashree",
+      "Leyi Zhang"
+    ],
+    "conference_name": "87th JSAP Autumn Meeting 2026",
+    "location": "Sapporo Campus, Hokkaido University",
+    "year": "2026",
+    "start_date": "2026-09-08",
+    "end_date": "2026-09-11"
+  },
+  {
+    "title": "A Robust, Ultra-Low-Cost Workflow for Fabricating Flexible Electrochemical Devices Using a Screen-Printed Enamel Resist",
+    "authors": [
+      "Aaryashree"
+    ],
+    "conference_name": "LOPEC 2026 – Scientific Conference Poster Session (ICM Foyer)",
+    "location": "Munich, Germany",
+    "year": "2026",
+    "start_date": "2026-02-24",
+    "end_date": "2026-02-26"
+  },
+  {
+    "title": "Disposable sensors using molecularly imprinted carbon paste for monitoring food freshness and blood drug concentration",
+    "authors": [
+      "Yasuo Yoshimi",
+      "Hina Sakurai",
+      "Aoi Hirata",
+      "Shigeru Toyama",
+      "Aaryashree",
+      "Ken-Ichi Saito"
+    ],
+    "conference_name": "International Conference on Chemical Sensors",
+    "location": "Freiburg, Germany",
+    "year": "2025",
+    "start_date": "2025-06-22",
+    "end_date": "2025-06-26"
+  },
+  {
+    "title": "分子インプリントカーボンペーストを用いた食品実試料中ヒスタミンの検出",
+    "authors": [
+      "Yasuo Yoshimi",
+      "Hina Sakurai",
+      "Aaryashree"
+    ],
+    "conference_name": "SCEJ 90th Annual Meeting",
+    "location": "Tokyo, Japan",
+    "year": "2025",
+    "start_date": "2025-03-12",
+    "end_date": "2025-03-14"
+  },
+  {
+    "title": "分子インプリントカーボンペーストを用いた血清中バンコマイシン検出用使い捨てセンサ",
+    "authors": [
+      "Yasuo Yoshimi",
+      "Aoi Hirata",
+      "Riku Otsuka",
+      "Shigeru Toyama",
+      "Aaryashree",
+      "Ken-ichi Saito"
+    ],
+    "conference_name": "SCEJ 90th Annual Meeting",
+    "location": "Tokyo, Japan",
+    "year": "2025",
+    "start_date": "2025-03-12",
+    "end_date": "2025-03-14"
+  },
+  {
+    "title": "ヒト血清中バンコマイシン濃度測定用センサチップ内配線材料の最適化",
+    "authors": [
+      "Shoei Sambongi",
+      "Aoi Hirata",
+      "Aaryashree",
+      "Yasu Yoshimi"
+    ],
+    "conference_name": "SCEJ 90th Annual Meeting",
+    "location": "Tokyo, Japan",
+    "year": "2025",
+    "start_date": "2025-03-12",
+    "end_date": "2025-03-14"
+  },
+  {
+    "title": "ドーパミン濃度応答性を持つ蛍光性分子インプリントポリマーナノ粒子の設計と特性評価",
+    "authors": [
+      "So Kobayashi",
+      "Aaryashree",
+      "Yasuo Yoshimi"
+    ],
+    "conference_name": "SCEJ 90th Annual Meeting",
+    "location": "Tokyo, Japan",
+    "year": "2025",
+    "start_date": "2025-03-12",
+    "end_date": "2025-03-14"
+  },
+  {
+    "title": "Study on superconducting joining properties of RE-Ba-Cu-O bulk superconductors by controlling oxygen atmosphere and processing conditions",
+    "authors": [
+      "Aadya Shyam Nair",
+      "Kento Takemura",
+      "Aaryashree",
+      "Kazuya Yokoyama",
+      "Tetsuo Oka",
+      "Naomichi Sakai"
+    ],
+    "conference_name": "The 37th International Symposium on Superconductivity (ISS2024)",
+    "location": "Kanazawa, Japan",
+    "year": "2024",
+    "start_date": "2024-12-03",
+    "end_date": "2024-12-05"
+  },
+  {
+    "title": "Retention of sensitivity of a disposable sensor using molecularly imprinted carbon paste to vancomycin in human serum",
+    "authors": [
+      "Aoi Hirata",
+      "Yasuo Yoshimi",
+      "Aaryashree",
+      "Ken-ichi Saito"
+    ],
+    "conference_name": "22nd International Congress of Therapeutic Drug Monitoring and Clinical Toxicology",
+    "location": "Banff, Canada",
+    "year": "2024",
+    "start_date": "2024-09-15",
+    "end_date": "2024-09-18"
+  },
+  {
+    "title": "Development of a Flexible Vancomycin Sensor Using A Molecularly Imprinted Polymer Carbon Paste",
+    "authors": [
+      "Haruka Okamura",
+      "Aaryashree",
+      "Yasuo Yoshimi"
+    ],
+    "conference_name": "22nd International Congress of Therapeutic Drug Monitoring and Clinical Toxicology",
+    "location": "Banff, Canada",
+    "year": "2024",
+    "start_date": "2024-09-15",
+    "end_date": "2024-09-18"
+  },
+  {
+    "title": "Development of Hypoxanthine Sensor Using Molecularly Imprinted Polymer for Freshness Evaluation of Fish",
+    "authors": [
+      "Sato Yui",
+      "Yoshimi Yasuo",
+      "Aaryashree"
+    ],
+    "conference_name": "SCEJ 55th Autumn Meeting",
+    "location": "Sapporo Campus, Hokkaido University",
+    "year": "2024",
+    "start_date": "2024-09-11",
+    "end_date": "2024-09-13"
+  },
+  {
+    "title": "Development of A Rapid Histamine Sensor Using Molecularly Imprinted Polymers for Fish Meat Freshness Evaluation",
+    "authors": [
+      "Sakurai Hina",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "SCEJ 55th Autumn Meeting",
+    "location": "Sapporo Campus, Hokkaido University",
+    "year": "2024",
+    "start_date": "2024-09-11",
+    "end_date": "2024-09-13"
+  },
+  {
+    "title": "Development of an Inosine Molecularly Imprinted Polymer Carbon Paste Electrode for Monitoring Fish Freshness",
+    "authors": [
+      "Iwasaki Takumi",
+      "Yoshimi Yasuo",
+      "Aaryashree"
+    ],
+    "conference_name": "SCEJ 55th Autumn Meeting",
+    "location": "Sapporo Campus, Hokkaido University",
+    "year": "2024",
+    "start_date": "2024-09-11",
+    "end_date": "2024-09-13"
+  },
+  {
+    "title": "Development of Hypoxanthine Sensor Using Molecularly Imprinted Polymer",
+    "authors": [
+      "Sato Yui",
+      "Yoshimi",
+      "Aaryashree"
+    ],
+    "conference_name": "MIP2024: The 12th International Conference on Molecular Imprinting",
+    "location": "Verona, Italy",
+    "year": "2024",
+    "start_date": "2024-06-19",
+    "end_date": "2024-06-21"
+  },
+  {
+    "title": "Development of A Disposable Inosine-Molecularly Imprinted Polymer Carbon Paste Electrodes for Freshness Evaluation of Fish",
+    "authors": [
+      "Takumi Iwasaki",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "MIP2024: The 12th International Conference on Molecular Imprinting",
+    "location": "Verona, Italy",
+    "year": "2024",
+    "start_date": "2024-06-19",
+    "end_date": "2024-06-21"
+  },
+  {
+    "title": "Development of a Disposable Histamine Sensor Using Molecularly Imprinted Carbon Paste for Freshness Evaluation of Fish",
+    "authors": [
+      "Hina Sakurai",
+      "Aaryashree",
+      "Yasuo Yoshimi"
+    ],
+    "conference_name": "MIP2024: The 12th International Conference on Molecular Imprinting",
+    "location": "Verona, Italy",
+    "year": "2024",
+    "start_date": "2024-06-19",
+    "end_date": "2024-06-21"
+  },
+  {
+    "title": "Detection of fish meat degradation indicator substances using the reduction current of ferrocenium groups introduced into molecularly imprinted polymers",
+    "authors": [
+      "Yoshimi Yasuo",
+      "Sakurai Hina",
+      "Sato Yui",
+      "Aaryashree"
+    ],
+    "conference_name": "SCEJ 89th Annual Meeting",
+    "location": "Osaka Metropolitan University",
+    "year": "2024",
+    "start_date": "2024-03-18",
+    "end_date": "2024-03-20"
+  },
+  {
+    "title": "Surfactant-based recovery of fluorescent molecularly imprinted polymer nanoparticles for serotonin detection.",
+    "authors": [
+      "Kimura Shunsuke",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "SCEJ 89th Annual Meeting",
+    "location": "Osaka Metropolitan University",
+    "year": "2024",
+    "start_date": "2024-03-18",
+    "end_date": "2024-03-20"
+  },
+  {
+    "title": "Polymer-Anchored Serotonin Immobilization on Glass Beads Surface for the Synthesis of Highly Selective Fluorescent Molecularly Imprinted Polymer Nanoparticles",
+    "authors": [
+      "Biyani Madhav",
+      "Matsumoto Mizuki",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "SCEJ 89th Annual Meeting",
+    "location": "Osaka Metropolitan University",
+    "year": "2024",
+    "start_date": "2024-03-18",
+    "end_date": "2024-03-20"
+  },
+  {
+    "title": "イノシンを鋳型とした分子インプリントポリマーカーボンペースト電極の開発",
+    "authors": [
+      "岩崎 拓海、アーリャシュリー、吉見靖男"
+    ],
+    "conference_name": "91st Annual Meeting of the Electrochemical Society",
+    "location": "Nagoya University",
+    "year": "2024",
+    "start_date": "2024-03-14",
+    "end_date": "2024-03-16"
+  },
+  {
+    "title": "分子インプリントカーボンペースト電極を用いたヒポキサンチンセンサの開発",
+    "authors": [
+      "佐藤 由衣、吉見 靖男、Aaryashree"
+    ],
+    "conference_name": "91st Annual Meeting of the Electrochemical Society",
+    "location": "Nagoya University",
+    "year": "2024",
+    "start_date": "2024-03-14",
+    "end_date": "2024-03-16"
+  },
+  {
+    "title": "分子インプリントポリマーを用いた魚肉鮮度評価用ヒスタミンセンサの開発",
+    "authors": [
+      "櫻井 日陽、Aaryashree、吉見 靖男"
+    ],
+    "conference_name": "91st Annual Meeting of the Electrochemical Society",
+    "location": "Nagoya University",
+    "year": "2024",
+    "start_date": "2024-03-14",
+    "end_date": "2024-03-16"
+  },
+  {
+    "title": "A Disposable Sensor Chip Electrode for Vancomycin Detection in Human Serum",
+    "authors": [
+      "Aaryashree",
+      "Aoi Hirata",
+      "Saki Hakoshima",
+      "Yasuo Yoshimi"
+    ],
+    "conference_name": "91st Annual Meeting of the Electrochemical Society",
+    "location": "Nagoya University",
+    "year": "2024",
+    "start_date": "2024-03-14",
+    "end_date": "2024-03-16"
+  },
+  {
+    "title": "Freshness Indicating Substance Sensor in Meat Using Molecularly Imprinted Carbon Paste Electrode",
+    "authors": [
+      "Y. Yoshimi",
+      "Y. Sato",
+      "T. Iwasaki",
+      "and A. Aaryashree"
+    ],
+    "conference_name": "244th ECS Meeting",
+    "location": "Gothenburg, Sweden",
+    "year": "2023",
+    "start_date": "2023-10-08",
+    "end_date": "2023-10-12"
+  },
+  {
+    "title": "A Disposable Sensor for Rapid Histamine Detection in Fish Using Molecularly Imprinted Carbon Paste Electrode",
+    "authors": [
+      "Sakurai Hina",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "244th ECS Meeting",
+    "location": "Gothenburg, Sweden",
+    "year": "2023",
+    "start_date": "2023-10-08",
+    "end_date": "2023-10-12"
+  },
+  {
+    "title": "分子インプリント固定カーボンペーストを用いた使い捨てセンサの濃度検出範囲の保管期間依存性",
+    "authors": [
+      "平田 碧生",
+      "吉見 靖男",
+      "Aaryashree"
+    ],
+    "conference_name": "The 54th Autumn Congress of the Society of Chemical Engineering",
+    "location": "Fukuoka University, Nanakuma Campus",
+    "year": "2023",
+    "start_date": "2023-09-11",
+    "end_date": "2023-09-12"
+  },
+  {
+    "title": "A Reagentless Histamine Sensor Using a Molecularly Imprinted Carbon Paste Electrode Using a Redox Group",
+    "authors": [
+      "吉見 靖男、櫻井 日陽、Aaryashree"
+    ],
+    "conference_name": "2023電気化学秋季大会",
+    "location": "九州大学、山形県",
+    "year": "2023",
+    "start_date": "2023-09-11",
+    "end_date": "2023-09-12"
+  },
+  {
+    "title": "分子インプリントポリマー電極を用いた使い捨てフェノバルビタールセンサの開発",
+    "authors": [
+      "奥　悠馬",
+      "Aaryashree",
+      "靖男吉見"
+    ],
+    "conference_name": "第39回日本TDM学会",
+    "location": "京都",
+    "year": "2023",
+    "start_date": "2023-06-25",
+    "end_date": "2023-06-26"
+  },
+  {
+    "title": "分子インプリント固定カーボンペーストを用いた使い捨てセンサの感度保持に関する研究",
+    "authors": [
+      "平田　碧生、Aaryashree",
+      "靖男吉見"
+    ],
+    "conference_name": "第39回日本TDM学会",
+    "location": "京都",
+    "year": "2023",
+    "start_date": "2023-06-25",
+    "end_date": "2023-06-26"
+  },
+  {
+    "title": "A Disposable Sensor Chip For Antiepileptic Drug Monitoring Using Molecularly Imprinted Carbon Paste",
+    "authors": [
+      "Aaryashree",
+      "Choudhary Ashish",
+      "Yuma Oku",
+      "and Yasuo Yoshimi"
+    ],
+    "conference_name": "90th ECSJ Annual Meeting",
+    "location": "Tohuku Institute of Technology, Sendai",
+    "year": "2023",
+    "start_date": "2023-03-27",
+    "end_date": "2023-03-29"
+  },
+  {
+    "title": "分子インプリント高分子を用いた体内留置用抗菌薬モニタリング用フレキシブルセンサの開発",
+    "authors": [
+      "銅坂 圭悟、 吉見 靖男、 Aaryashree"
+    ],
+    "conference_name": "化学工学会第88年会(東京)",
+    "location": "東京農工大学 小金井キャンパス",
+    "year": "2023",
+    "start_date": "2023-03-15",
+    "end_date": "2023-03-17"
+  },
+  {
+    "title": "分子インプリントポリマー固定グラファイト電極を用いた高感度フェノバルビタールセンサのモノマー組成の最適化",
+    "authors": [
+      "奥 悠馬、Aaryashree、吉見 靖男"
+    ],
+    "conference_name": "化学工学会第88年会(東京)",
+    "location": "東京農工大学 小金井キャンパス",
+    "year": "2023",
+    "start_date": "2023-03-15",
+    "end_date": "2023-03-17"
+  },
+  {
+    "title": "分子インプリント固定カーボンペーストのスクリーンプリント電極へ塗布して作られた抗菌薬チップの開発",
+    "authors": [
+      "平田 碧生、吉見 靖男、 Aaryashree"
+    ],
+    "conference_name": "化学工学会第88年会(東京)",
+    "location": "東京農工大学 小金井キャンパス",
+    "year": "2023",
+    "start_date": "2023-03-15",
+    "end_date": "2023-03-17"
+  },
+  {
+    "title": "分子インプリントポリマーを用いたチップ型ヒスタミンセンサによる魚肉鮮度評価の可能性",
+    "authors": [
+      "櫻井 日陽、Aaryashree、 吉見 靖男"
+    ],
+    "conference_name": "化学工学会第88年会(東京)",
+    "location": "東京農工大学 小金井キャンパス",
+    "year": "2023",
+    "start_date": "2023-03-15",
+    "end_date": "2023-03-17"
+  },
+  {
+    "title": "Development of a Chip-type Histamine Sensor Using Molecularly Imprinted Polymer",
+    "authors": [
+      "Sakurai Hina",
+      "Aaryashree",
+      "Yoshimi Yasuo"
+    ],
+    "conference_name": "The SCEJ Niigata Conference",
+    "location": "Niigata City, Japan",
+    "year": "2022",
+    "start_date": "2022-11-09",
+    "end_date": "2022-11-10"
+  },
+  {
+    "title": "A Disposable Chip Sensor for the Detection of Vancomycin: Studying the Long-Term Stability",
+    "authors": [
+      "Aaryashree",
+      "Ashish Kumar Choudhary",
+      "Akihiko Hatano",
+      "Yasuo Yoshimi"
+    ],
+    "conference_name": "242nd ECS Meeting",
+    "location": "Atlanta, USA",
+    "year": "2022",
+    "start_date": "2022-10-09",
+    "end_date": "2022-10-13"
+  },
+  {
+    "title": "Molecularly Imprinted Carbon-Paste-based Chip-Sensor: A Promising Candidate for Bedside Therapeutic Monitoring of Vancomycin",
+    "authors": [
+      "Aaryashree",
+      "Akihiko Hatano",
+      "Ken-ichi Saito",
+      "and Yasuo Yoshimi"
+    ],
+    "conference_name": "IATDMCT 2022",
+    "location": "Prague, Czech Republic",
+    "year": "2022",
+    "start_date": "2022-09-18",
+    "end_date": "2022-09-21"
+  },
+  {
+    "title": "Disposable sensor chip for direct oral anticoagulant monitoring using molecularly imprinted carbon paste electrode",
+    "authors": [
+      "Yoshimi Yasuo",
+      "Kani Shohei",
+      "Aaryashree"
+    ],
+    "conference_name": "SCEJ 53rd Autumn Meeting",
+    "location": "Shinshu University, Nagano, Japan",
+    "year": "2022",
+    "start_date": "2022-09-14",
+    "end_date": "2022-09-16"
+  },
+  {
+    "title": "Development of a disposable sensor chip for real-time monitoring of vancomycin using molecularly imprinted electrode",
+    "authors": [
+      "Yoshimi Yasuo",
+      "Aaryashree",
+      "Hatano Akihiko",
+      "Saito Ken-ichi"
+    ],
+    "conference_name": "SCEJ 53rd Autumn Meeting",
+    "location": "Shinshu University, Nagano, Japan",
+    "year": "2022",
+    "start_date": "2022-09-14",
+    "end_date": "2022-09-16"
+  },
+  {
+    "title": "Realtime Detection of Vancomycin in Human Whole Blood using Disposable Sensor Chip Electrode",
+    "authors": [
+      "Aaryashree",
+      "Choudhary Ashish",
+      "Yasuo Yoshimi",
+      "Akihiko Hatano",
+      "Ken-ichi Saito"
+    ],
+    "conference_name": "The ECSJ Fall Meeting",
+    "location": "Yokohama University",
+    "year": "2022",
+    "start_date": "2022-09-08",
+    "end_date": "2022-09-09"
+  },
+  {
+    "title": "Drug sensor chip using molecularly imprinted carbon paste on a plastic base",
+    "authors": [
+      "Aaryashree",
+      "Akihiko Hatano",
+      "Tomoji Oishi",
+      "and Yasuo Yoshimi"
+    ],
+    "conference_name": "Pacifichem 2021 Congress",
+    "location": "Honolulu, Hawaii, USA",
+    "year": "2021",
+    "start_date": "2021-12-16",
+    "end_date": "2021-12-21"
+  },
+  {
+    "title": "A Disposable Vancomycin Sensor Using Molecularly Imprinted Carbon Paste on a Paper Chip",
+    "authors": [
+      "Aaryashree",
+      "Haruki Ebisawa",
+      "Sayaka Azuma",
+      "Akihiko Hatano",
+      "and Yasuo Yoshimi"
+    ],
+    "conference_name": "The ECSJ Fall Meeting",
+    "location": "Hokkaido University",
+    "year": "2021",
+    "start_date": "2021-09-08",
+    "end_date": "2021-09-09"
+  },
+  {
+    "title": "Molecularly Imprinted Carbon-paste For Theophylline Sensing on A Disposable Paper Chip Sensor",
+    "authors": [
+      "Aaryashree",
+      "Yui Nakane",
+      "Masaki Abe",
+      "Yuuto Takeda",
+      "Tomoji Oishi",
+      "and Yasuo Yoshimi"
+    ],
+    "conference_name": "239th ECS Meeting with 18th International Meeting on Chemical Sensors",
+    "location": "Virtual Meeting, USA",
+    "year": "2021",
+    "start_date": "2021-05-30",
+    "end_date": "2021-06-03"
+  },
+  {
+    "title": "The Effect of Crosslinker Composition on Theophylline Sensor Using Molecularly Imprinted Polymer",
+    "authors": [
+      "Aaryashree and Y. Yoshimi"
+    ],
+    "conference_name": "3rd G'L'owing Polymer Symposium in KANTO (GPS-K 2020)",
+    "location": "Online",
+    "year": "2020",
+    "start_date": "2020-11-28",
+    "end_date": "2020-11-28"
+  },
+  {
+    "title": "A Disposable Vancomycin Sensor Using Molecularly Imprinted Carbon Paste on a Ceramic Chip",
+    "authors": [
+      "Aaryashree",
+      "Y. Takeda",
+      "Y. Yoshimi",
+      "A. Hatano",
+      "M Kida"
+    ],
+    "conference_name": "PRiME 2020",
+    "location": "Honolulu, Hawaii (Online)",
+    "year": "2020",
+    "start_date": "2020-10-04",
+    "end_date": "2020-10-09"
+  },
+  {
+    "title": "分子インプリントカーボンペースト電極を用いた使い捨てチップ型センサの開発",
+    "authors": [
+      "Yasuo Yoshimi",
+      "Aaryashree",
+      "Momoe Kanai and Yuuto Takeda"
+    ],
+    "conference_name": "SCEJ 51st Autumn Meeting",
+    "location": "Online",
+    "year": "2020",
+    "start_date": "2020-09-24",
+    "end_date": "2020-09-26"
+  },
+  {
+    "title": "Disposable Sensor Chips using Molecularly Imprinted Polymers Enables Easy Determination of Blood Level of Drugs",
+    "authors": [
+      "Aaryashree",
+      "Y. Takeda",
+      "M. Kanai",
+      "Y. Yoshimi"
+    ],
+    "conference_name": "IATDMCT 2020",
+    "location": "Virtual",
+    "year": "2020",
+    "start_date": "2020-09-14",
+    "end_date": "2020-09-16"
+  },
+  {
+    "title": "Organic amine functionalized ZnO for CO2 sensing application",
+    "authors": [
+      "Biswajit Mandal",
+      "Ankan Biswas",
+      "Aaryashree",
+      "Apurba K. Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "6th Nano Today Conference",
+    "location": "Lisbon, Portugal",
+    "year": "2019",
+    "start_date": "2019-06-17",
+    "end_date": "2019-06-20"
+  },
+  {
+    "title": "Enhancement in methanol selectivity using MoO3 micrograss encapsulated ZnO microcube",
+    "authors": [
+      "B. Mandal",
+      "Aaryashree",
+      "R. Bhardwaj",
+      "M. Das",
+      "D.S. Sharma",
+      "S. Mukherjee"
+    ],
+    "conference_name": "IEEE SENSOR 2018",
+    "location": "Pullman City, New Delhi, India",
+    "year": "2018",
+    "start_date": "2018-10-28",
+    "end_date": "2018-10-31"
+  },
+  {
+    "title": "Defect control in MoO3 nanostructures as ethanol sensor",
+    "authors": [
+      "B. Mandal",
+      "Aaryashree",
+      "R. Bhardwaj",
+      "M. Das",
+      "M.T. Htay",
+      "D. S. Sharma",
+      "S. Mukherjee"
+    ],
+    "conference_name": "IEEE SENSOR 2018",
+    "location": "Pullman City, New Delhi, India",
+    "year": "2018",
+    "start_date": "2018-10-28",
+    "end_date": "2018-10-31"
+  },
+  {
+    "title": "Dual ion beam sputtered low-power and high-endurance resistive switching memory device with memristive behavior",
+    "authors": [
+      "Amitesh Kumar",
+      "Mangal Das",
+      "Md Arif Khan",
+      "Aaryashree",
+      "Vivek Garg",
+      "Abhinav Kranti and Shaibal Mukherjee"
+    ],
+    "conference_name": "34th International Conference on the Physics of Semiconductors (ICPS 2018)",
+    "location": "Montpellier, France",
+    "year": "2018",
+    "start_date": "2018-07-29",
+    "end_date": "2018-08-03"
+  },
+  {
+    "title": "Interface-engineered forming-free dual ion beam sputtered ZnO based memristive device",
+    "authors": [
+      "Amitesh Kumar",
+      "Mangal Das",
+      "Aaryashree",
+      "Md Arif Khan",
+      "Ritesh Bhardwaj",
+      "Abhinav Kranti",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "20th International Conference on Superlattices, Nanostructures and Nanodevices (ICSNN2018)",
+    "location": "Madrid, Spain",
+    "year": "2018",
+    "start_date": "2018-07-23",
+    "end_date": "2018-07-26"
+  },
+  {
+    "title": "Nano-scaled ZnO based resistive memory device fabricated by dual ion beam sputtering",
+    "authors": [
+      "Amitesh Kumar",
+      "Mangal Das",
+      "Biswajit Mandal",
+      "Ritesh Bhardwaj",
+      "Aaryashree",
+      "Abhinav Kranti",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "18th IEEE International Conference on Nanotechnology (IEEE NANO 2018)",
+    "location": "Cork, Ireland",
+    "year": "2018",
+    "start_date": "2018-07-23",
+    "end_date": "2018-07-26"
+  },
+  {
+    "title": "Spectral photoresponse tunability of MgZnO based UV photodetectors",
+    "authors": [
+      "Ritesh Bhardwaj",
+      "Biswajit Mandal",
+      "Md. Arif Khan",
+      "Aaryashree",
+      "Amitesh Kumar",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "18th IEEE International Conference on Nanotechnology (IEEE NANO 2018)",
+    "location": "Cork, Ireland",
+    "year": "2018",
+    "start_date": "2018-07-23",
+    "end_date": "2018-07-26"
+  },
+  {
+    "title": "Self-assembled Zn-OPV composite for ammonia sensing",
+    "authors": [
+      "Aaryashree",
+      "Biswajit Mandal",
+      "Ritesh Bhardwaj",
+      "Sayan Maiti",
+      "Apurba K Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "17th International Meeting on Chemical Sensors (IMCS 2018)",
+    "location": "University of Vienna, Vienna. Austria",
+    "year": "2018",
+    "start_date": "2018-07-15",
+    "end_date": "2018-07-19"
+  },
+  {
+    "title": "Molar concentration variation in hydrothermal growth for highly porous Zn-BTC metal organic framework",
+    "authors": [
+      "Aaryashree",
+      "Biswajit Mandal",
+      "Rohit G Jadhav",
+      "Apurba K Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "19th International Workshop on The Physics of Semiconductor Devices (19th IWPSD)",
+    "location": "IIT Delhi, India",
+    "year": "2017",
+    "start_date": "2017-12-11",
+    "end_date": "2017-12-15"
+  },
+  {
+    "title": "Synthesis of high crystalline nanobelt like α-MoO3 and their alcohol sensing performance",
+    "authors": [
+      "Biswajit Mandal",
+      "Aaryashree",
+      "Mangal Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "19th International Workshop on The Physics of Semiconductor Devices (19th IWPSD)",
+    "location": "IIT Delhi, India",
+    "year": "2017",
+    "start_date": "2017-12-11",
+    "end_date": "2017-12-15"
+  },
+  {
+    "title": "Study of ZnO-oligophenylenevinylene nano-hybrid for Optoelectronic Applications",
+    "authors": [
+      "Aaryashree",
+      "Biswajit Mandal",
+      "Rohit G Jadhav",
+      "Mangal Das",
+      "Apurba K Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "5th International Symposium on Integrated Functionalities",
+    "location": "Shangri-La’s Eros Hotel, Delhi, India",
+    "year": "2017",
+    "start_date": "2017-12-10",
+    "end_date": "2017-12-12"
+  },
+  {
+    "title": "Synthesis of micrograss like α-MoO3 and their enhanced ethanol sensing performance",
+    "authors": [
+      "Biswajit Mandal",
+      "Aaryashree",
+      "Mangal Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "5th International Symposium on Integrated Functionalities",
+    "location": "Shangri-La’s Eros Hotel, Delhi, India",
+    "year": "2017",
+    "start_date": "2017-12-10",
+    "end_date": "2017-12-12"
+  },
+  {
+    "title": "Effect of electrochemical deposition time on optical properties of graphene quantum dots",
+    "authors": [
+      "Aaryashree",
+      "Sagar Biswas",
+      "Vishnu Awasthi",
+      "Brajendra S. Sengar",
+      "Apurba K. Das",
+      "and Shaibal Mukherjee"
+    ],
+    "conference_name": "18th International Workshop on The Physics of Semiconductor Devices (18th IWPSD)",
+    "location": "IISc, Bangalore, India",
+    "year": "2015",
+    "start_date": "2015-12-07",
+    "end_date": "2015-12-10"
+  }
+]
