@@ -1,16 +1,16 @@
 [
   {
-  "year": 2026,
-  "title": "Integrating machine learning with electrochemical sensors for intelligent food safety monitoring",
-  "venue": "Artificial Intelligence Chemistry",
-  "authors": "Aaryashree, Arti Devi",
-  "volume": "4",
-  "issue": "1",
-  "pages": "100105",
-  "month": "June",
-  "links": {"doi": "https://doi.org/10.1016/j.aichem.2025.100105"},
-  "area": "Food Safety Sensors"
-},
+    "year": 2026,
+    "title": "Integrating machine learning with electrochemical sensors for intelligent food safety monitoring",
+    "venue": "Artificial Intelligence Chemistry",
+    "authors": "Aaryashree, Arti Devi",
+    "volume": "4",
+    "issue": "1",
+    "pages": "100105",
+    "month": "June",
+    "links": {"doi": "https://doi.org/10.1016/j.aichem.2025.100105"},
+    "area": "Food Safety Sensors"
+  },
   {
     "year": 2025,
     "title": "The Individual and Combined Effects of Microplastics and Heavy Metals on Marine Organisms",
@@ -20,7 +20,7 @@
     "issue": "3",
     "pages": "38",
     "month": "July",
-    "links": {},
+    "links": {"doi": "https://doi.org/10.3390/microplastics4030038"},
     "area": "Environmental Sensors"
   },
   {
@@ -32,7 +32,7 @@
     "issue": "5",
     "pages": "968-984",
     "month": "May",
-    "links": {},
+    "links": {"doi": "https://doi.org/10.1364/OPTCON.521585"},
     "area": "Optical Sensing"
   },
   {
@@ -43,7 +43,7 @@
     "volume": "23",
     "pages": "3271",
     "month": "March",
-    "links": {},
+    "links": {"doi": "https://doi.org/10.3390/s23063271"},
     "area": "Biosensors"
   },
   {
@@ -55,7 +55,7 @@
     "issue": "8",
     "pages": "2456",
     "month": "April",
-    "links": { "doi": "https://doi.org/10.3390/molecules27082456" },
+    "links": {"doi": "https://doi.org/10.3390/molecules27082456"},
     "area": "Biosensors"
   },
   {
@@ -63,7 +63,7 @@
     "title": "Recent advances in 2D black phosphorus-based materials for gas sensing applications",
     "venue": "Journal of Materials Chemistry C",
     "authors": "Aaryashree, Shinde P., Kumar A., Late D. J., Rout C. S.",
-    "links": { "doi": "https://doi.org/10.1039/d0tc05565d" },
+    "links": {"doi": "https://doi.org/10.1039/d0tc05565d"},
     "area": "Gas Sensors"
   },
   {
@@ -74,7 +74,7 @@
     "volume": "12",
     "issue": "1",
     "month": "Feb",
-    "links": { "doi": "https://doi.org/10.1007/s12274-021-3330-8" },
+    "links": {"doi": "https://doi.org/10.1007/s12274-021-3330-8"},
     "area": "Wearable Sensors"
   },
   {
@@ -85,6 +85,7 @@
     "volume": "20",
     "pages": "5847",
     "month": "October",
+    "links": {"doi": "https://doi.org/10.3390/s20205847"},
     "area": "Biosensors"
   },
   {
@@ -95,7 +96,7 @@
     "volume": "1",
     "issue": "3",
     "pages": "2610-2617",
-    "links": { "doi": "https://doi.org/10.1109/JSEN.2020.3027786" },
+    "links": {"doi": "https://doi.org/10.1109/JSEN.2020.3027786"},
     "area": "Gas Sensors"
   },
   {
@@ -107,6 +108,7 @@
     "issue": "13",
     "pages": "7307-7316",
     "month": "March",
+    "links": {"doi": "https://doi.org/10.1021/acs.jpcc.0c01044"},
     "area": "Gas Sensors"
   },
   {
@@ -117,6 +119,7 @@
     "volume": "109",
     "pages": "281-290",
     "month": "January",
+    "links": {"doi": "https://doi.org/10.1016/j.materresbull.2018.09.041"},
     "area": "Gas Sensors"
   },
   {
@@ -128,6 +131,7 @@
     "issue": "8",
     "pages": "2847-2854",
     "month": "December",
+    "links": {"doi": "https://doi.org/10.1109/JSEN.2018.2886043"},
     "area": "Gas Sensors"
   },
   {
@@ -139,6 +143,7 @@
     "issue": "12",
     "pages": "6912-6921",
     "month": "November",
+    "links": {"doi": "https://doi.org/10.1021/acsanm.8b01731"},
     "area": "Gas Sensors"
   },
   {
@@ -149,6 +154,7 @@
     "volume": "174",
     "pages": "35-44",
     "month": "September",
+    "links": {"doi": "https://doi.org/10.1016/j.solener.2018.08.067"},
     "area": "Solar Cells"
   },
   {
@@ -160,6 +166,7 @@
     "issue": "7",
     "pages": "2659-2666",
     "month": "April",
+    "links": {"doi": "https://doi.org/10.1109/JSEN.2018.2803131"},
     "area": "Gas Sensors"
   },
   {
@@ -171,6 +178,7 @@
     "issue": "26",
     "pages": "14037-14044",
     "month": "June",
+    "links": {"doi": "https://doi.org/10.1021/acs.jpcc.7b04219"},
     "area": "Optoelectronics"
   },
   {
@@ -181,6 +189,7 @@
     "volume": "121",
     "pages": "225306",
     "month": "June",
+    "links": {"doi": "https://doi.org/10.1063/1.4985246"},
     "area": "Optoelectronics"
   },
   {
@@ -192,6 +201,7 @@
     "issue": "10",
     "pages": "103903",
     "month": "March",
+    "links": {"doi": "https://doi.org/10.1063/1.4978031"},
     "area": "Solar Cells"
   },
   {
@@ -203,6 +213,7 @@
     "issue": "7",
     "pages": "1503-1509",
     "month": "May",
+    "links": {"doi": "https://doi.org/10.1002/slct.201600180"},
     "area": "Optoelectronics"
   },
   {
@@ -214,6 +225,7 @@
     "issue": "3",
     "pages": "329-337",
     "month": "March",
+    "links": {"doi": "https://doi.org/10.1002/cplu.201500511"},
     "area": "Optoelectronics"
   },
   {
@@ -224,6 +236,7 @@
     "volume": "139",
     "pages": "1-12",
     "month": "September",
+    "links": {"doi": "https://doi.org/10.1016/j.solener.2016.09.016"},
     "area": "Solar Cells"
   },
   {
@@ -234,6 +247,7 @@
     "volume": "6",
     "pages": "26216-26226",
     "month": "March",
+    "links": {"doi": "https://doi.org/10.1039/C5RA25575A"},
     "area": "Solar Cells"
   }
 ]
