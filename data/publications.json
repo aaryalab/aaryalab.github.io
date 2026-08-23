@@ -1,5 +1,17 @@
 [
   {
+  "year": 2026,
+  "title": "An ultra-low-cost enamel-resist patterning strategy for flexible electrochemical platforms on copper and aluminum foil substrates with carbon-interlayer engineering",
+  "venue": "Flexible and Printed Electronics",
+  "authors": "Aaryashree",
+  "volume": "11",
+  "issue": "3",
+  "pages": "035006",
+  "month": "September",
+  "links": {"doi": "https://doi.org/10.1088/2058-8585/ae8de4"},
+  "area": "Flexible Electronics"
+}
+  {
     "year": 2026,
     "title": "Integrating machine learning with electrochemical sensors for intelligent food safety monitoring",
     "venue": "Artificial Intelligence Chemistry",
